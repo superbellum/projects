@@ -1,0 +1,72 @@
+{
+  "ulohy":[
+    {
+      "nazov": "Križovatky 01 - 05",
+      "praca": "1"
+    },
+    {
+      "nazov": "Križovatky 06 - 10",
+      "praca": "2"
+    },
+    {
+      "nazov": "Križovatky 11 - 15",
+      "praca": "3"
+    },
+    {
+      "nazov": "Kolízie",
+      "praca": "2"
+    },
+    {
+      "nazov": "Animácia riešení",
+      "praca": "2"
+    },
+    {
+      "nazov": "Zobrazenie popisu riešenia",
+      "praca": "2"
+    },
+    {
+      "nazov": "Animácia smeroviek",
+      "praca": "2"
+    },
+    {
+      "nazov": "Animácia pohybu áut",
+      "praca": "2"
+    },
+    {
+      "nazov": "Marker-animácia",
+      "praca": "3"
+    },
+    {
+      "nazov": "Načítavacie okno",
+      "praca": "3"
+    },
+    {
+      "nazov": "Návody",
+      "praca": "3"
+    },
+    {
+      "nazov": "Meniny",
+      "praca": "1"
+    },
+    {
+      "nazov": "Počítadlo prístupov",
+      "praca": "1"
+    },
+    {
+      "nazov": "Informácie o autorov",
+      "praca": "1"
+    }, {
+      "nazov": "Tabuľka úloh",
+      "praca": "1"
+    },
+    {
+      "nazov": "Spávne riešenie križovatiek",
+      "praca": "1"
+    },
+    {
+      "nazov": "Grafický návrh",
+      "praca": "3"
+    }
+
+  ]
+}

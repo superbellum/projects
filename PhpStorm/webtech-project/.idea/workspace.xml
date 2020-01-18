@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3063b3c1-5739-42c1-848b-89c2afa99504" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webtech-project" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Balazs" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Balazs" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TbyBMJqvU2OhyuNDkMWr1AMQVu" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zaverecny_projekt/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nagyb\PhpstormProjects\webtech-project\zaverecny_projekt\images" />
+      <recent name="C:\Users\nagyb\PhpstormProjects\webtech-project\zaverecny_projekt" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nagyb\PhpstormProjects\webtech-project\zaverecny_projekt\images" />
+      <recent name="C:\Users\nagyb\PhpstormProjects\webtech-project\zaverecny_projekt" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/webtech-project/zaverecny_projekt/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://147.175.121.202/zaverecny_projekt/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="indexf.html" type="JavascriptDebugType" temporary="true" uri="http://147.175.121.202/zaverecny_projekt/index.html">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.indexf.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.indexf.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.indexf.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3063b3c1-5739-42c1-848b-89c2afa99504" name="Default Changelist" comment="" />
+      <created>1573742952569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573742952569</updated>
+      <workItem from="1573742953656" duration="3781000" />
+      <workItem from="1573835352235" duration="10965000" />
+      <workItem from="1573888829839" duration="4149000" />
+      <workItem from="1574165773671" duration="11269000" />
+      <workItem from="1574328268871" duration="4604000" />
+      <workItem from="1574448513297" duration="27000" />
+      <workItem from="1576139126175" duration="340000" />
+      <workItem from="1576139526960" duration="293000" />
+      <workItem from="1576139862099" duration="1190000" />
+      <workItem from="1576567419120" duration="181000" />
+      <workItem from="1576567602942" duration="3824000" />
+      <workItem from="1576667723080" duration="1086000" />
+      <workItem from="1576668834566" duration="1702000" />
+      <workItem from="1576670557565" duration="8208000" />
+      <workItem from="1577092791654" duration="12831000" />
+      <workItem from="1577459682986" duration="16231000" />
+      <workItem from="1577784621708" duration="1995000" />
+      <workItem from="1578148290182" duration="8512000" />
+      <workItem from="1578173081381" duration="3000" />
+      <workItem from="1578224806352" duration="1266000" />
+      <workItem from="1578340293453" duration="9664000" />
+      <workItem from="1578424695264" duration="901000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit,create branch">
+      <created>1576139618383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576139618383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="krizovatka test commit">
+      <created>1576139780343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576139780343</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1576567969727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576567969727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tabulka staticky v html">
+      <created>1576673014066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576673014066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tabulka dinamicky v html">
+      <created>1576677853110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576677853110</updated>
+    </task>
+    <task id="LOCAL-00006" summary="tabulka tabulka version 1">
+      <created>1576690221194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576690221194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="skorooo">
+      <created>1577734530085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577734530085</updated>
+    </task>
+    <task id="LOCAL-00008" summary="merged">
+      <created>1577734707880</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577734707880</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial">
+      <created>1577992536575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577992536575</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added counter,avatar divs">
+      <created>1577995379550</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577995379550</updated>
+    </task>
+    <task id="LOCAL-00011" summary="avatar started to do">
+      <created>1577998484667</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577998484667</updated>
+    </task>
+    <task id="LOCAL-00012" summary="solutions.json created for patrik...folzamatosan toltom ki tovabb">
+      <created>1578151112433</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578151112433</updated>
+    </task>
+    <task id="LOCAL-00013" summary="counter,namedays">
+      <created>1578220472361</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578220472361</updated>
+    </task>
+    <task id="LOCAL-00014" summary="table top changed">
+      <created>1578220631611</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578220631611</updated>
+    </task>
+    <task id="LOCAL-00015" summary="valaki mindig kitorli a print modeot az index.cssbol :D">
+      <created>1578221460399</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578221460399</updated>
+    </task>
+    <task id="LOCAL-00016" summary="before pull">
+      <created>1578304352978</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578304352978</updated>
+    </task>
+    <task id="LOCAL-00017" summary="before pull">
+      <created>1578340300865</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578340300865</updated>
+    </task>
+    <task id="LOCAL-00018" summary="before pull">
+      <created>1578405243256</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578405243256</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added tasks">
+      <created>1578408675497</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578408675498</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added task">
+      <created>1578424243808</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578424243808</updated>
+    </task>
+    <task id="LOCAL-00021" summary="my final push..megyek vacsizni aztan zuhanyozni">
+      <created>1578425456268</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578425456268</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit,create branch" />
+    <MESSAGE value="krizovatka test commit" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="tabulka staticky v html" />
+    <MESSAGE value="tabulka dinamicky v html" />
+    <MESSAGE value="tabulka tabulka version 1" />
+    <MESSAGE value="skorooo" />
+    <MESSAGE value="merged" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="added counter,avatar divs" />
+    <MESSAGE value="avatar started to do" />
+    <MESSAGE value="solutions.json created for patrik...folzamatosan toltom ki tovabb" />
+    <MESSAGE value="counter,namedays" />
+    <MESSAGE value="table top changed" />
+    <MESSAGE value="valaki mindig kitorli a print modeot az index.cssbol :D" />
+    <MESSAGE value="before pull" />
+    <MESSAGE value="added tasks" />
+    <MESSAGE value="added task" />
+    <MESSAGE value="my final push..megyek vacsizni aztan zuhanyozni" />
+    <option name="LAST_COMMIT_MESSAGE" value="my final push..megyek vacsizni aztan zuhanyozni" />
+  </component>
+</project>

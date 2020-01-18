@@ -1,0 +1,63 @@
+{
+  "solutions":
+  [
+    {
+      "id": "intersection_01",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Červené vozidlo prichádza ku križovatke po hlavnej ceste a pokračuje priamo, takže prejde cez križovatku ako prvé.\nV poradí druhé prejde cez križovatku žlté vozidlo, ktoré muselo dať prednosť v jazde protiidúcemu červenému vozidlu. Súčasne môže ísť aj fialové vozidlo, pretože dráhy týchto dvoch vozidiel sa nekrížia."
+    },
+    {
+      "id": "intersection_02",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Červené a modré vozidlo prichádzajú ku križovatke po hlavnej ceste a pokračujú priamo, takže prejdú cez križovatku ako prvé.\nAko posledné prejde cez križovatku zelené vozidlo prichádzajúce po vedľajšej ceste,ktoré muselo dať prednosť v jazde červenému a modrému vozidlu prichádzajúcemu po hlavnej ceste."
+    },
+    {
+      "id": "intersection_03",
+
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Žlté vozidlo prichádza ku križovatke po hlavnej ceste, takže prejde cez križovatku ako prvé.Ako druhé prejde cez križovatku sanitka prichádzajúce tiež po hlavnej ceste, ktoré muselo pri odbočovaní vľavo dať prednosť v jazde žltému vozidlu.Ako posledné prejde cez križovatku červené vozidlo prichádzajúce po vedľajšej ceste,ktoré muselo dať prednosť v jazde obidvom vozidlám prichádzajúcemu po hlavnej ceste."
+    },
+    {
+      "id": "intersection_04",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Nakoľko sa jazdné dráhy týchto troch vozidiel nepretínajú, môžu prejsť cez križovatku všetky tri súčasne."
+    },
+    {
+      "id": "intersection_05",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Ako prvé prejde cez križovatku modré vozidlo súčasne s červeným,ktoré prichádzajú ku križovatke po hlavnej ceste pretože ich dráhy sa nepretínajú.Ako posledné prejde cez križovatku žlté vozidlo prichádzajúce po vedľajšej ceste,ktoré muselo dať prednosť v jazde červenému a modrému vozidlu prichádzajúcemu po hlavnej ceste."
+    },
+    {
+      "id": "intersection_06",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Ako prvé prejde cez križovatku zelené vozidlo súčasne s modrým,ktoré prichádzajú ku križovatke po hlavnej ceste pretože ich dráhy sa nepretínajú.Ako posledné prejde cez križovatku žlté vozidlo prichádzajúce po vedľajšej ceste,ktoré muselo dať prednosť v jazde zelenému a fialovému vozidlu prichádzajúcemu po hlavnej ceste."
+    },{
+      "id": "intersection_07",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Ako prvé prejde cez križovatku žlté vozidlo súčasne s oranžovým,ktoré prichádzajú ku križovatke po hlavnej ceste pretože ich dráhy sa nepretínajú.Ako posledné prejde cez križovatku policajné vozidlo prichádzajúce po vedľajšej ceste,ktoré muselo dať prednosť v jazde žltému a oranžovému vozidlu prichádzajúcemu po hlavnej ceste.."
+    },
+    {
+      "id": "intersection_08",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Svetlomodré vozidlo prichádza ku križovatke po hlavnej ceste, takže prejde cez križovatku ako prvé.V poradí druhé prejde cez križovatku červené vozidlo, ktoré muselo dať prednosť v jazde protiidúcemu svetlomodrému vozidlu. Súčasne môže ísť aj tmavomodré vozidlo, pretože dráhy týchto dvoch vozidiel sa nekrížia."
+    },
+    {
+      "id": "intersection_09",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Ako prvé prejde cez križovatku oranžové vozidlo súčasne so sanitkou,ktoré prichádzajú ku križovatke po hlavnej ceste pretože ich dráhy sa nepretínajú.Ako posledné prejde cez križovatku modré vozidlo prichádzajúce po vedľajšej ceste,ktoré muselo dať prednosť v jazde oranžovému vozidlu a sanitke prichádzajúcemu po hlavnej ceste."
+    },{
+      "id": "intersection_10",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Ako prvé prejde cez križovatku zelené vozidlo.Ako druhé prejde cez križovatku modré vozidlo, ktoré muselo pri odbočovaní vľavo dať prednosť v jazde zelenému vozidlu."
+    },
+    {
+      "id": "intersection_11",
+      "text": "Riadená križovatka a priechod pre chodcov.Ako prvé prejde cez križovatku chodec, pre ktorému svieti signál VOĽNO.Modré vozidlo prejde cez križovatku keď mu to stevelné riadenie dovolí."
+    },
+    {
+      "id": "intersection_12",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Policajné vozidlo prichádza ku križovatke po hlavnej ceste a pokračuje priamo, takže prejde cez križovatku ako prvé.V poradí druhé prejde cez križovatku žlté vozidlo, ktoré muselo dať prednosť v jazde protiidúcemu policajnému vozidlu.Ako posledné prejde cez križovatku oranžové vozidlo prichádzajúce po vedľajšej ceste,ktoré muselo dať prednosť v jazde obidvom vozidlám prichádzajúcich po hlavnej ceste."
+    },
+    {
+      "id": "intersection_13",
+      "text": "Križovatka ciest rozlíšená dopravnými značkami.Červené vozidlo prichádza ku križovatke po hlavnej ceste a pokračuje priamo,takže prejde cez križovatku ako prvé.V poradí druhé prejde cez križovatku modré vozidlo, ktoré muselo dať prednosť v jazde červenému vozidlu prichádzajúcemu po hlavnej ceste."
+    },
+    {
+      "id": "intersection_14",
+      "text": "Riadená križovatka a priechod pre chodcov.Ako prvé prejde cez križovatku chodec, pre ktorému svieti signál VOĽNO.Modré vozidlo prejde cez križovatku keď mu to stevelné riadenie dovolí."
+    },{
+      "id": "intersection_15",
+      "text": "Železničné priecestie-svetelne riadené.Černevé svetlo znamená STOJ pre modré a červené vozidlo.Ako prvé v poradí prejde cez križovatku vlak.Ak sa rozsvieti zelené svetlo modré a červené vozidlá prejdú cez križovatku súčasne."
+    }
+  ]
+}

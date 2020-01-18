@@ -1,0 +1,725 @@
+{
+  "intersections":
+  [
+    {
+      "id": "intersection_01",
+      "backgroundImageSource": "images/intersections/intersection_01.png",
+      "first": [ 0 ],
+      "second": [ 1, 2 ],
+      "third": [],
+      "sleep1": 3000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "red-yellow-purple"
+        },
+        {
+          "id": "solution_02",
+          "value": "red-purple-yellow"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M888.0187416331995,691.231593038822 C524.3641231593039,470.3480589022758 247.72423025435074,383.3333333333335 -216.33199464524765,320.41499330655955",
+          "type": "vehicle",
+          "className": "car red_car",
+          "car_color" : "red"
+        },
+        {
+          "id": "route_02",
+          "path": "M66.06425702811246,463.6546184738956 C583.2663989290494,568.0722891566264 49.598393574297184,621.619812583668 1183.9357429718877,249.46452476572955",
+          "type": "vehicle",
+          "className": "car taxi_car car-signal-left",
+          "car_color" : "yellow"
+        },
+        {
+          "id": "route_03",
+          "path": "M574.7657295850067,361.9143239625168 C200.40160642570265,498.46050870147246 563.6546184738955,431.5261044176707 -208.29986613119135,325.7697456492637",
+          "type": "vehicle",
+          "className": "car purple_car car-signal-right",
+          "car_color" : "purple"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_02",
+      "backgroundImageSource": "images/intersections/intersection_02.png",
+      "first": [ 0, 1 ],
+      "second": [ 2 ],
+      "third": [],
+      "sleep1": 3000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "blue-red-green"
+        },
+        {
+          "id": "solution_02",
+          "value": "red-blue-green"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M688.5542168674699,815.7295850066935 C533.7349397590361,386.01070950468545 254.4176706827309,135.67603748326644 -18.20615796519411,-41.03078982597055",
+          "type": "vehicle",
+          "className": "car blue_car",
+          "car_color" : "blue"
+        },
+        {
+          "id": "route_02",
+          "path": "M197.43455497382197,243.00523560209425 C409.61256544502623,448.0732984293194 592.303664921466,692.0104712041885 712,1262.9842931937171",
+          "type": "vehicle",
+          "className": "car firefighter_car",
+          "car_color" : "red"
+        },
+        {
+          "id": "route_03",
+          "path": "M385.0785340314136,752.3246073298429 C550.3455497382198,281.87434554973817 267.9476439790575,212.1780104712042 -17.130890052356037,-63.926701570680635",
+          "type": "vehicle",
+          "className": "car green_car car-signal-left",
+          "car_color" : "green"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_03",
+      "backgroundImageSource": "images/intersections/intersection_03.png",
+      "first": [ 0 ],
+      "second": [ 1 ],
+      "third": [ 2 ],
+      "sleep1": 1500,
+      "sleep2": 3000,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "yellow-grey-red"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M478.9005235602094,86.18848167539267 C585.1937172774869,344.8691099476439 588.282722513089,212.17801047120415 -207.45549738219896,553.958115183246",
+          "type": "vehicle",
+          "className": "car taxi_car car-signal-right",
+          "car_color" : "yellow"
+        },
+        {
+          "id": "route_02",
+          "path": "M738.9214659685865,642.4188481675393 C609.3193717277486,243.00523560209422 836.2408376963352,149.18324607329842 -116.31413612565444,509.7277486910994",
+          "type": "vehicle",
+          "className": "car ambulance_car car-signal-left",
+          "car_color" : "grey"
+        },
+        {
+          "id": "route_03",
+          "path": "M403.4136546184739,420.8165997322624 C680.9906291834003,316.39892904953143 712.2489959839357,356.55957161981263 470.4149933065596,-165.52878179384206",
+          "type": "vehicle",
+          "className": "car red_car car-signal-left",
+          "car_color" : "red"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_04",
+      "backgroundImageSource": "images/intersections/intersection_04.png",
+      "first": [ 0, 1, 2 ],
+      "second": [],
+      "third": [],
+      "sleep1": 0,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "red-green-violet"
+        },
+        {
+          "id": "solution_02",
+          "value": "red-violet-green"
+        },
+        {
+          "id": "solution_3",
+          "value": "green-red-violet"
+        },
+        {
+          "id": "solution_04",
+          "value": "green-violet-red"
+        },
+        {
+          "id": "solution_05",
+          "value": "violet-red-green"
+        },
+        {
+          "id": "solution_6",
+          "value": "violet-green-red"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M409.2041884816754,494.9842931937173 C888.1047120418848,646.4397905759163 1013.1623036649214,7.109947643979055 565.9057591623038,-81.35078534031415",
+          "type": "vehicle",
+          "className": "car green_car",
+          "car_color" : "green"
+        },
+        {
+          "id": "route_02",
+          "path": "M317.09092053405124,559.1644118967727 C528.0887382255763,666.2023305508372 493.63289273894253,532.3475209561655 490.0150231848693,1133.891832088679",
+          "type": "vehicle",
+          "className": "car violet_car car-signal-right",
+          "car_color" : "violet"
+        },
+        {
+          "id": "route_03",
+          "path": "M910.4816753926702,685.3089005235603 C758.0942408376965,342.1884816753927 1141.8324607329841,332.80628272251306 789.738219895288,-102.79581151832461",
+          "type": "vehicle",
+          "className": "car red_car",
+          "car_color" : "red"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_05",
+      "backgroundImageSource": "images/intersections/intersection_05.png",
+      "first": [ 0, 1 ],
+      "second": [ 2 ],
+      "third": [],
+      "sleep1": 3000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "red-blue-yellow"
+        },
+        {
+          "id": "solution_02",
+          "value": "blue-red-yellow"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M478.380187416332,82.12851405622489 C335.60910307898257,373.9625167336011 167.40294511378846,727.376171352075 -14.190093708165998,1086.1445783132529",
+          "type": "vehicle",
+          "className": "car blue_car",
+          "car_color" : "blue"
+        },
+        {
+          "id": "route_02",
+          "path": "M343.1726907630522,580.1204819277109 C450.73627844712183,353.88219544846055 558.2998661311914,126.3052208835341 742.1686746987951,-247.1887550200803",
+          "type": "vehicle",
+          "className": "car firefighter_car",
+          "car_color" : "red"
+        },
+        {
+          "id": "route_03",
+          "path": "M643.759162303665,340.8481675392669 C278.261780104712,332.8062827225131 384.55497382198956,287.2356020942406 -7.748691099476461,1095.4450261780105",
+          "type": "vehicle",
+          "className": "car taxi_car",
+          "car_color" : "yellow"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_06",
+      "backgroundImageSource": "images/intersections/intersection_06.png",
+      "first": [ 0, 1 ],
+      "second": [ 2 ],
+      "third": [],
+      "sleep1": 2500,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "green-purple-orange"
+        },
+        {
+          "id": "solution_02",
+          "value": "purple-green-orange"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M799.488131521247,299.16697894377535 C589.9598393574298,438.2195448460509 281.1914323962515,545.3145917001339 -214.99330655957175,513.186077643909",
+          "type": "vehicle",
+          "className": "car green_car",
+          "car_color" : "green"
+        },
+        {
+          "id": "route_02",
+          "path": "M380.47876070464736,573.5980365073631 C693.0388219544847,510.50870147255694 909.0361445783132,368.6077643908969 1137.0816599732261,151.74029451137883",
+          "type": "vehicle",
+          "className": "car purple_car",
+          "car_color" : "purple"
+        },
+        {
+          "id": "route_03",
+          "path": "M660.2645706109391,679.35439527577 C553.8152610441769,232.06157965194114 506.0910307898258,589.4912985274432 -229.71887550200816,509.1700133868809",
+          "type": "vehicle",
+          "className": "car orange_car car-signal-left",
+          "car_color" : "orange"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_07",
+      "backgroundImageSource": "images/intersections/intersection_07.png",
+      "first": [ 1, 2 ],
+      "second": [ 0 ],
+      "third": [],
+      "sleep1": 2500,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "orange-yellow-grey"
+        },
+        {
+          "id": "solution_02",
+          "value": "yellow-orange-grey"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M341.0389086040927,657.9177203085488 C668.4778682079942,389.9987250047813 469.59880150449436,447.1185108055845 191.84003059988527,-118.63936760237151",
+          "type": "vehicle",
+          "className": "car police_car car-signal-left",
+          "car_color" : "grey"
+        },
+        {
+          "id": "route_02",
+          "path": "M277.5769745649264,234.73895582329317 C498.9290495314592,566.7336010709505 842.1017402945114,809.0361445783133 1202.677376171352,945.5823293172691",
+          "type": "vehicle",
+          "className": "car taxi_car",
+          "car_color" : "yellow"
+        },
+        {
+          "id": "route_03",
+          "path": "M718.8167539267016,572.7225130890052 C342.5968586387434,268.4712041884817 246.50261780104708,-22.376963350785346 173.1937172774869,-188.5759162303665",
+          "type": "vehicle",
+          "className": "car orange_car",
+          "car_color" : "orange"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_08",
+      "backgroundImageSource": "images/intersections/intersection_08.png",
+      "first": [ 0 ],
+      "second": [ 1, 2 ],
+      "third": [],
+      "sleep1": 2500,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "blue-red-violet"
+        },
+        {
+          "id": "solution_02",
+          "value": "blue-violet-red"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M550.478123207038,961.1965830128138 C552.8783017063686,508.31828130644516 547.1185108055846,124.7997195010519 542.7187148048196,-221.998980003825",
+          "type": "vehicle",
+          "className": "car blue_car",
+          "car_color" : "blue"
+        },
+        {
+          "id": "route_02",
+          "path": "M449.3919513561085,624.7659812785023 C430.26642131370505,1001.1160892871429 1190.723257860629,558.7206976558126 929.6583726698136,-161.21689735178813",
+          "type": "vehicle",
+          "className": "car red_car car-signal-left",
+          "car_color" : "red"
+        },
+        {
+          "id": "route_03",
+          "path": "M288.5759162303665,493.64397905759165 C578.4921465968587,494.9842931937173 560.1361256544503,507.0471204188483 535.0785340314136,-195.27748691099478",
+          "type": "vehicle",
+          "className": "car violet_car car-signal-left",
+          "car_color" : "violet"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_09",
+      "backgroundImageSource": "images/intersections/intersection_09.png",
+      "first": [ 0, 1 ],
+      "second": [ 2 ],
+      "third": [],
+      "sleep1": 2500,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "grey-orange-violet"
+        },
+        {
+          "id": "solution_02",
+          "value": "orange-grey-violet"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M250.80321285140562,307.0281124497992 C480.18741633199454,602.8781793842035 777.8447121820616,849.1967871485944 1179.9196787148592,1009.8393574297189",
+          "type": "vehicle",
+          "className": "car ambulance_car",
+          "car_color" : "grey"
+        },
+        {
+          "id": "route_02",
+          "path": "M744.282722513089,659.8429319371729 C418.9947643979057,414.56544502617805 172.7853403141361,74.12565445026176 116.90052356020942,-136.30366492146595",
+          "type": "vehicle",
+          "className": "car orange_car",
+          "car_color" : "orange"
+        },
+        {
+          "id": "route_03",
+          "path": "M318.06282722513083,713.4554973821992 C670.9738219895288,389.0994764397906 332.28272251308897,433.3298429319372 110.19895287958114,-137.6439790575916",
+          "type": "vehicle",
+          "className": "car violet_car car-signal-left",
+          "car_color" : "violet"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_10",
+      "backgroundImageSource": "images/intersections/intersection_10.png",
+      "first": [ 0 ],
+      "second": [ 1 ],
+      "third": [],
+      "sleep1": 2000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "green-blue"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M319.32303313681643,561.323439723521 C434.3769058751777,532.6997357186423 568.9469404350477,410.39845497052266 760.7643830046758,1153.3136816426106",
+          "type": "vehicle",
+          "className": "car green_car car-signal-right",
+          "car_color" : "green"
+        },
+        {
+          "id": "route_02",
+          "path": "M634.3929594104808,335.7886621678448 C252.5060573900159,502.391918140131 703.6354352309818,530.5863153046715 739.1144010085472,1180.3826268779767",
+          "type": "vehicle",
+          "className": "car blue_car car-signal-left",
+          "car_color" : "blue"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_11",
+      "backgroundImageSource": "images/intersections/intersection_11.png",
+      "first": [ 0 ],
+      "second": [ 1 ],
+      "third": [],
+      "sleep1": 4000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "grey-blue"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M526.585604561605,428.5451373375035 C469.01342524627137,417.6517520903811 408.71789961915704,398.5883279079169 338.89066190081064,374.0782111018915",
+          "type": "pedestrian",
+          "className": "pedestrian",
+          "car_color" : "grey"
+        },
+        {
+          "id": "route_02",
+          "path": "M389.05661581668477,538.8406629646178 C464.92840577860045,330.50467011340186 540.8001957405162,120.80700410629561 583.9918299610647,-122.93249079806813",
+          "type": "vehicle",
+          "className": "car blue_car",
+          "car_color" : "blue"
+        }
+      ],
+      "isSemafore": "true",
+      "semafores":
+      [
+        {
+          "type": "pedestrian",
+          "top": "280px",
+          "left": "360px",
+          "rotate": "-70deg"
+        },
+        {
+          "type": "vehicle",
+          "top": "460px",
+          "left": "445px",
+          "rotate": "21deg"
+        }
+      ]
+    },
+    {
+      "id": "intersection_12",
+      "backgroundImageSource": "images/intersections/intersection_12.png",
+      "first": [ 0 ],
+      "second": [ 1 ],
+      "third": [ 2 ],
+      "sleep1": 2000,
+      "sleep2": 2000,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "grey-yellow-orange"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M464.0046682227409,910.7313548960765 C461.3648994109148,438.39613204401456 462.99321996220965,186.57885961987333 460.35345115038353,-120.72357452484144",
+          "type": "vehicle",
+          "className": "car police_car",
+          "car_color" : "grey"
+        },
+        {
+          "id": "route_02",
+          "path": "M365.838612870957,449.7777036790041 C367.4669334222517,805.4518172724243 292.269645437368,700.172279648772 1249.9499833277762,721.5127264643771",
+          "type": "vehicle",
+          "className": "car taxi_car car-signal-left",
+          "car_color" : "yellow"
+        },
+        {
+          "id": "route_03",
+          "path": "M614.810492386351,620.5012782038457 C274.9916638879627,617.6558852950983 396.1264866066467,611.9650994776036 355.0739135267312,1179.620984772702",
+          "type": "vehicle",
+          "className": "car orange_car car-signal-left",
+          "car_color" : "orange"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_13",
+      "backgroundImageSource": "images/intersections/intersection_13.png",
+      "first": [ 0 ],
+      "second": [ 1 ],
+      "third": [],
+      "sleep1": 2000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "red-blue"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M469.6954540402355,313.19884405913086 C572.3352228520619,586.3565632988773 683.5111703901301,892.2363009892186 806.0686895631876,1209.4976103145493",
+          "type": "vehicle",
+          "className": "car red_car",
+          "car_color" : "red"
+        },
+        {
+          "id": "route_02",
+          "path": "M351.6116483272201,459.73657885961984 C624.9749916638881,536.5621873957986 525.5918639546517,518.0671334889407 806.0686895631876,1209.4976103145493",
+          "type": "vehicle",
+          "className": "car blue_car",
+          "car_color" : "blue"
+        }
+      ],
+      "isSemafore": "false",
+      "semafores":
+      [
+      ]
+    },
+    {
+      "id": "intersection_14",
+      "backgroundImageSource": "images/intersections/intersection_14.png",
+      "first": [ 0 ],
+      "second": [ 1 ],
+      "third": [],
+      "sleep1": 4000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "grey-blue"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M542.5276153346329,376.1858349577648 C502.8589993502274,432.0662768031189 451.49447693307343,508.73944119558166 420.92267706302795,556.8226120857701",
+          "type": "pedestrian",
+          "className": "pedestrian",
+          "car_color" : "grey"
+        },
+        {
+          "id": "route_02",
+          "path": "M599.7784609820058,578.0766796274527 C468.9302830273985,485.482412514694 100.80929559634683,232.29496337824392 -137.10100370738775,70.25499593091604",
+          "type": "vehicle",
+          "className": "car blue_car",
+          "car_color" : "blue"
+        }
+      ],
+      "isSemafore": "true",
+      "semafores":
+      [
+        {
+          "type": "pedestrian",
+          "top": "480px",
+          "left": "350px",
+          "rotate": "-145deg"
+        },
+        {
+          "type": "vehicle",
+          "top": "435px",
+          "left": "570px",
+          "rotate": "-55deg"
+        }
+      ]
+    },
+    {
+      "id": "intersection_15",
+      "backgroundImageSource": "images/intersections/intersection_15.png",
+      "first": [ 0 ],
+      "second": [ 1, 2 ],
+      "third": [],
+      "sleep1": 5000,
+      "sleep2": 0,
+      "solutions":
+      [
+        {
+          "id": "solution_01",
+          "value": "grey-red-blue"
+        },
+        {
+          "id": "solution_02",
+          "value": "grey-blue-red"
+        }
+      ],
+      "routes":
+      [
+        {
+          "id": "route_01",
+          "path": "M439.81882849838837,895.081693897966 C202.434144714905,626.1920640213406 6.307658108258296,401.406024230299 -233.92241858397242,142.47526953428925",
+          "type": "vehicle",
+          "className": "car tram",
+          "car_color" : "grey"
+        },
+        {
+          "id": "route_02",
+          "path": "M286.46723646723643,394.72934472934475 C47.293447293447294,572.7920227920227 -72.22222222222223,924.6438746438746 -9.401709401709422,1178.2051282051284",
+          "type": "vehicle",
+          "className": "car red_car",
+          "car_color" : "red"
+        },
+        {
+          "id": "route_03",
+          "path": "M108.3305546293209,829.6376569967766 C223.77459153051012,266.2498610647994 1138.7740357897078,300.3945759697677 1015.205068356119,-109.34200288985213",
+          "type": "vehicle",
+          "className": "car blue_car",
+          "car_color" : "blue"
+        }
+      ],
+      "isSemafore": "true",
+      "semafores":
+      [
+        {
+          "type": "vehicle",
+          "top": "330px",
+          "left": "160px",
+          "rotate": "-135deg"
+        },
+        {
+          "type": "vehicle",
+          "top": "760px",
+          "left": "170px",
+          "rotate": "20deg"
+        }
+      ]
+    }
+  ]
+}

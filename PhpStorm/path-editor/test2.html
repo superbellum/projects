@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="http://louisremi.github.io/jquery.transform.js/jquery.transform2d.js"></script>
+    <script src="test2.js"></script>
+    <link rel="stylesheet" href="test2.css" type="text/css">
+    <title>test2</title>
+</head>
+<body>
+<main>
+
+    <svg id="svg" viewBox="0 0 1000 1000">
+
+        <path id="path-motion" fill="none" stroke="blue" stroke-width="40px" d="M100,100 C200,200 300,300 400,400"/>
+
+        <circle id="circle-start-point" class="draggable" cx="50" cy="50" r="15" fill="green" stroke="black" stroke-width="3px" pointer-events="all" onmousedown="startDrag(evt)" onmousemove="drag(evt)" onmouseup="endDrag()"/>
+
+        <circle id="circle-first-check-point" class="draggable" cx="100" cy="50" r="15" fill="orange" stroke="black" stroke-width="3px" pointer-events="all" onmousedown="startDrag(evt)" onmousemove="drag(evt)" onmouseup="endDrag()"/>
+
+        <circle id="circle-second-check-point" class="draggable" cx="150" cy="50" r="15" fill="orange" stroke="black" stroke-width="3px" pointer-events="all" onmousedown="startDrag(evt)" onmousemove="drag(evt)" onmouseup="endDrag()"/>
+
+        <circle id="circle-end-point" cx="200" class="draggable" cy="50" r="15" fill="red" stroke="black" stroke-width="3px" pointer-events="all" onmousedown="startDrag(evt)" onmousemove="drag(evt)" onmouseup="endDrag()"/>
+
+    </svg>
+</main>
+
+<div id="div-path-string">#path</div>
+
+</body>
+</html>

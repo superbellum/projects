@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/marker-favicon.png" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="meniny.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="tasks.css" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+    <script src="collision.js"></script>
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <title>Semestálne zadanie</title>
+</head>
+<body onload="showFirefoxSettingsGuide()">
+<div id="div-firefox-settings-guide">
+    <i id="button-close-settings-guide" class="fas fa-times" onclick="closeFirefoxSettingsGuide()"></i>
+    <div id="div-settings-guide-content">
+        <p>Ak používate Firefox, nasledujúce nastavenia sú nevyhnutné:</p>
+        <ul>
+            <li>Otvorte novú kartu v prehliadači</li>
+            <li>Namiesto URL-ka zadajte: about:config</li>
+            <li>Do vyhladávača zadajte: path</li>
+            <li>Prepnite "layout.css.motion-path.enabled" na true</li>
+        </ul>
+    </div>
+</div>
+<div id="div-temporary-images"></div>
+
+<div id="loading_screen">
+    <div id="loading_screen_box">
+        <div class="concentric_circles" id="c_01"></div>
+        <div class="concentric_circles" id="c_02"></div>
+        <div class="concentric_circles" id="c_03"></div>
+        <div class="concentric_circles" id="c_04"></div>
+    </div>
+
+</div>
+<header id="main-header">
+    <div id="div-topbar">
+        <div id="div-topbar-main-container">
+            <div class="div-topbar-sub-container" id="div-topbar-tutorial-content-1">
+                <p>Ak kliknete na mape nachádzajúce markre, tak sa Vám zobrazí križovatka, nad ktorou je marker umiestnený.</p>
+                <img src="images/tutorial_images/tutorial-image6.png" alt="tutorial-image6" id="div-topbar-tutorial-content-picture-marker" class="div-topbar-tutorial-content-picture">
+            </div>
+            <div class="div-topbar-sub-container" id="div-topbar-tutorial-content-2">
+                <p>Kliknutím na lupu sa Vám zobrazí dialogové okno, v ktorom si môžete vyhľadať meniny v nastavenom štáte. Preklikávaním štátov sa zobrazujú meniny v danej oblasti. Ak kliknete na tlačidlo "Rozdelenie úloh", vyskočí tabuľka spĺnenými úlohami autorov.</p>
+                <img src="images/tutorial_images/tutorial-image7.png" alt="tutorial-image7" id="div-topbar-tutorial-content-picture-lupa" class="div-topbar-tutorial-content-picture">
+                <img src="images/tutorial_images/tutorial-image8.png" alt="tutorial-image8" id="div-topbar-tutorial-content-picture-selector" class="div-topbar-tutorial-content-picture">
+                <img src="images/tutorial_images/tutorial-image9.png" alt="tutorial-image9" id="div-topbar-tutorial-content-picture-taskboard" class="div-topbar-tutorial-content-picture">
+            </div>
+            <div class="div-topbar-sub-container" id="div-topbar-tutorial-content-3">
+                <p>Ďalšie informácie o autoroch nájdete, ak kliknete na fotku autora na spodku webovej stránky.</p>
+                <img src="images/tutorial_images/tutorial-image10.png" alt="tutorial-image10" id="div-topbar-tutorial-content-picture-autor" class="div-topbar-tutorial-content-picture">
+            </div>
+        </div>
+        <i class="fas fa-times" id="button-topbar-closer" onclick="closeTopBar()"></i>
+    </div>
+    <div id="div-topbar-opener">
+        <i class="fas fa-info-circle" id="button-topbar-opener" onclick="openTopBar()"></i>
+    </div>
+
+
+    <button id="button-tasks" type="button" onclick="showTaskTable()">Rozdelenie úloh</button>
+
+
+    <select id="select" class="selectpicker" onchange="changeCountry()">
+        <option value="SKd" selected>SK</option>
+        <option value="CZ">CZ</option>
+        <option value="HU">HU</option>
+        <option value="PL">PL</option>
+        <option value="AT">AT</option>
+    </select>
+
+    <div id="div-name"></div>
+
+    <div id="div-date"></div>
+
+    <i class="fas fa-search" id="icon-magnifier" onclick="showSearcher()"></i>
+
+    <div id="div-namedays">
+
+        <h1>Vyhladávanie menín</h1>
+
+        <div class="div-input">
+
+            <div class="div-form-check">
+
+                <input type="radio" name="exampleRadios" id="exampleRadios1" onchange="changeSearch()" value="option1"
+                       checked>
+
+                <label class="form-check-label" for="exampleRadios1">podľa mena</label>
+
+            </div>
+
+            <div class="div-form-check">
+
+                <input type="radio" name="exampleRadios" id="exampleRadios2" onchange="changeSearch()" value="option2">
+
+                <label class="form-check-label" for="exampleRadios2">podľa dátumu</label>
+
+            </div>
+
+            <input type="text" class="form-control mb-1 mr-sm-1" id="inlineFormInputName1" placeholder="Janko">
+
+            <input type="text" class="form-control mb-1 mr-sm-1" id="inlineFormInputName2" onblur="checkDate()"
+                   maxlength="5" placeholder="DD.MM">
+
+            <div class="div-tooltip" id="tooltip">Neplatný dátum.Spávny formát: DD.MM</div>
+
+            <div id="div-result"></div>
+
+            <button type="button" class="btn btn-primary" id="button-get-date">Hľadaj</button>
+
+        </div>
+
+        <div id="div-namedays-exit-button" onclick="showSearcher()">&times;</div>
+    </div>
+
+</header>
+<main id="main-section">
+
+    <div id="whiteboard">
+
+        <div class = "div-buttons">
+
+            <button type="button" id="button-close" onclick="closeWhiteboard()">Zatvoriť</button>
+
+            <button type="button" id="button-reset" onclick="resetSituation()">Resetovať</button>
+
+            <button type="button" id="button-show-solution" onclick="showSolution()">Riešenie</button>
+
+        </div>
+
+        <div class="crossroad"></div>
+
+        <div id="div-choice-container"></div>
+
+        <div id="div-validation-result">
+
+            <div id="inner-div-validation-result">
+
+                <p id="p-validation-result-text"></p>
+
+            </div>
+
+            <button type="button" onclick="closeValidationResultDiv()">&times;</button>
+
+        </div>
+
+        <div id="div-crash">
+
+            <button type="button" onclick="closeCrashDiv()">&times;</button>
+
+        </div>
+
+
+        <div id="div-sidebar">
+            <div id="div-sidebar-tutorial-container">
+                <header>
+                    <p id="header-sidebar-title">Návod na použitie</p>
+                </header>
+                <div id="div-sidebar-main-section">
+                    <ul>
+                        <li>Blikajúce smerovky Vám naznačujú, akým smerom bude vozidlo pokračovať v jazde.</li>
+                        <li>Kliknutia určujú poradie vozidiel a spúšťajú ich animáciu, podľa ktorej vstupujú do križovatky</li>
+                        <li class="sidebar-list-item"><img class="sidebar-tutorial-images" id="sidebar-tutorial-image-01" src="images/tutorial_images/tutorial-image1.png" alt="tutorial-image1"></li>
+                        <li>Zafarbené obdĺžniky znázorňujú poradie Vášho výberu.</li>
+                        <li class="sidebar-list-item"><img class="sidebar-tutorial-images" id="sidebar-tutorial-image-02" src="images/tutorial_images/tutorial-image2.png" alt="tutorial-image2"></li>
+                        <li>Po ukončení anímácií áut sa Vám zobrazí výsledok Vášho rozhodnutia.</li>
+                        <li>Ako v reálnom živote, dbajte na to, aby ste rozbehli Vaše auto v správnom okamihu. Nezodpovední soféri môžu zapríčiniť haváriu.</li>
+                        <li class="sidebar-list-item"><img class="sidebar-tutorial-images" id="sidebar-tutorial-image-03" src="images/tutorial_images/tutorial-image11.png" alt="tutorial-image3"></li>
+                        <li>Ak si potrebujete poradiť, tlačidlo "Riešenie" Vám umožňuje si preštudovať danú situáciu pomocou krátkeho opisu a animácie vozidiel.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="div-sidebar-opener"  onclick="sideBarController(false)">
+            <i class="fas fa-info-circle" id="button-sidebar-opener"></i>
+        </div>
+
+
+        <div id="div-bottom-bar">
+            <div id="div-bottom-bar-exit-button" onclick="closeBottomBar()">&times;</div>
+            <div id="div-bottom-bar-content"></div>
+        </div>
+
+    </div>
+
+    <i id="i-crossroad-marker-01" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">1</i>
+    <div class="pulse" id="div-marker-pulse-01"></div>
+    <i id="i-crossroad-marker-02" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">2</i>
+    <div class="pulse" id="div-marker-pulse-02"></div>
+    <i id="i-crossroad-marker-03" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">3</i>
+    <div class="pulse" id="div-marker-pulse-03"></div>
+    <i id="i-crossroad-marker-04" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">4</i>
+    <div class="pulse" id="div-marker-pulse-04"></div>
+    <i id="i-crossroad-marker-05" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">5</i>
+    <div class="pulse" id="div-marker-pulse-05"></div>
+    <i id="i-crossroad-marker-06" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">6</i>
+    <div class="pulse" id="div-marker-pulse-06"></div>
+    <i id="i-crossroad-marker-07" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">7</i>
+    <div class="pulse" id="div-marker-pulse-07"></div>
+    <i id="i-crossroad-marker-08" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">8</i>
+    <div class="pulse" id="div-marker-pulse-08"></div>
+    <i id="i-crossroad-marker-09" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">9</i>
+    <div class="pulse" id="div-marker-pulse-09"></div>
+    <i id="i-crossroad-marker-10" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">10</i>
+    <div class="pulse" id="div-marker-pulse-10"></div>
+    <i id="i-crossroad-marker-11" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">11</i>
+    <div class="pulse" id="div-marker-pulse-11"></div>
+    <i id="i-crossroad-marker-12" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">12</i>
+    <div class="pulse" id="div-marker-pulse-12"></div>
+    <i id="i-crossroad-marker-13" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">13</i>
+    <div class="pulse" id="div-marker-pulse-13"></div>
+    <i id="i-crossroad-marker-14" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">14</i>
+    <div class="pulse" id="div-marker-pulse-14"></div>
+    <i id="i-crossroad-marker-15" class="fas fa-map-marker-alt marker" onclick="openWhiteboard(this)">15</i>
+    <div class="pulse" id="div-marker-pulse-15"></div>
+    <table id="table-tasks"></table>
+
+
+    <div id="div-autors-info">
+        <div class="div-autor-info" id="zoli-info" >
+            <div>
+                <div class="div-autor-photo" id="zoli"></div>
+                <h3 class="autor-name">Zoltán Mészáros</h3>
+            </div>
+            <div class="div-autor-contact">
+                <ul>
+                    <li><b>Bydlisko:</b> Trstená na Ostrove</li>
+                    <li><b>Vek:</b> 22</li>
+                    <li><b>Škola:</b> FEI STU</li>
+                </ul>
+            </div>
+            <div class="div-social-icons">
+                <a href="https://www.facebook.com/zoltan.meszaros.98892" target="_blank"
+                ><img src="images/f_logo_RGB-Blue_72.png" class="facebook-logo" alt="facebook"></a>
+                <a href="https://github.com/mszrosz1" target="_blank"><img src="images/GitHub-Mark-64px.png" class="github-logo" alt="github"></a>
+            </div>
+        </div>
+        <div class="div-autor-info" id="balazs-info" >
+            <div>
+                <div class="div-autor-photo" id="balazs"></div>
+                <h3 class="autor-name">Balázs Nagy</h3>
+            </div>
+            <div class="div-autor-contact">
+                <ul>
+                    <li><b>Bydlisko:</b> Mierovo</li>
+                    <li><b>Vek:</b> 21</li>
+                    <li><b>Škola:</b> FEI STU</li>
+                </ul>
+            </div>
+            <div class="div-social-icons">
+                <a href="https://www.facebook.com/nagybz66" target="_blank"><img src="images/f_logo_RGB-Blue_72.png" class="facebook-logo" alt="facebook"></a>
+                <a href="https://github.com/NagyBz" target="_blank"><img src="images/GitHub-Mark-64px.png" class="github-logo" alt="github"></a>
+            </div>
+        </div>
+        <div class="div-autor-info" id="patrik-info">
+            <div>
+                <div class="div-autor-photo" id="patrik"></div>
+                <h3 class="autor-name">Patrik Gúgh </h3>
+            </div>
+            <div class="div-autor-contact">
+                <ul>
+                    <li><b>Bydlisko:</b> Zlaté Klasy</li>
+                    <li><b>Vek:</b> 22</li>
+                    <li><b>Škola:</b> FEI STU</li>
+                </ul>
+            </div>
+            <div class="div-social-icons">
+                <a href="https://www.facebook.com/patykesz" target="_blank"><img src="images/f_logo_RGB-Blue_72.png" class="facebook-logo" alt="facebook"></a>
+                <a href="https://github.com/gughpatrik619" target="_blank"><img src="images/GitHub-Mark-64px.png" class="github-logo" alt="github"></a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+
+    <div id="visitors-div">
+        <div id="CounterVisitor">
+        </div>
+        <script>
+            <!--
+            document.write('<img src="https://toplist.cz/count.asp?id=1795918&logo=mc&start=1&http=' +
+                escape(document.referrer) + '&t=' + escape(document.title) +
+                '&wi=' + escape(window.screen.width) + '&he=' + escape(window.screen.height) + '&cd=' +
+                escape(window.screen.colorDepth) + '"alt="TOPlist" id="visitors-img" /> ');
+            //-->
+        </script>
+        <noscript><img src="https://toplist.cz/count.asp?id=1795918&logo=mc&start=1" alt="TOPlist"/></noscript>
+    </div>
+    <p>Stránku vytvorili: </p>
+    <div id="div-authors">
+        <div class="div-autor">
+            <div id="div-autor-zoli" class="div-autor-image" onclick="showInfo_zoli()">
+            </div>
+            <div class="div-autor-name">Zoltán Mészáros</div>
+        </div>
+        <div class="div-autor">
+            <div id="div-autor-balazs" class="div-autor-image " onclick="showInfo_balazs()">
+            </div>
+            <div class="div-autor-name">Balázs Nagy</div>
+        </div>
+        <div class="div-autor">
+            <div id="div-autor-patrik" class="div-autor-image"  onclick="showInfo_patrik()">
+            </div>
+            <div class="div-autor-name">Patrik Gúgh</div>
+        </div>
+    </div>
+</footer>
+<script src="tasks.js"></script>
+<script src="meniny.js"></script>
+<script src="counter.js"></script>
+</body>
+</html>

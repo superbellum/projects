@@ -1,0 +1,1459 @@
+#div-temporary-images
+{
+    width: 0;
+    height: 0;
+    position: fixed;
+    visibility: hidden;
+}
+
+@media print
+{
+    body
+    {
+        -webkit-print-color-adjust: exact !important;
+    }
+}
+
+
+
+#main-header
+{
+    padding-right: 2vw;
+    padding-left: 2vw;
+    text-align: left;
+    color: white;
+    display: block;
+    position: relative;
+    background: black;
+    height: 5vw;
+    box-sizing: unset;
+}
+
+header h1
+{
+    font-size: 3vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+    width: fit-content;
+}
+
+#main-section
+{
+    width: 100vw;
+    height: 100vw;
+    background-image: url("images/roadmap.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body::-webkit-scrollbar
+{
+    width: 0;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+    background: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: black;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: grey;
+}
+
+.marker
+{
+    position: absolute;
+    font-size: 3vw;
+    color: red;
+    animation: moveAnimation 1.5s linear infinite;
+}
+
+.marker:hover
+{
+    transform: scale(1.5);
+}
+
+.pulse
+{
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: rotateX(55deg);
+}
+
+.pulse:after
+{
+    content: "";
+    border-radius: 50%;
+    height: 3vw;
+    width: 3vw;
+    position: absolute;
+    animation: pulsate 1.5s ease-out infinite;
+    opacity: 0.0;
+    box-shadow: 0 0 1px 2px red;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+        opacity: 0;
+    }
+}
+@keyframes moveAnimation
+{
+    50%
+    {
+        transform: translateY(1vw);
+    }
+}
+
+.div-buttons button:enabled, .div-buttons button:disabled
+{
+    margin: 10% auto;
+
+    max-width: 200px;
+    max-height: 80px;
+
+    width: 20vh;
+    height: auto;
+    position: relative;
+    color: white;
+    padding: 4%;
+    text-align: center;
+    font-size: 3vh;
+    display: block;
+    border: none;
+    border-radius: 7px;
+}
+
+#whiteboard
+{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to bottom, white, #9AECDB);
+    text-align: center;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.div-buttons
+{
+    background-image: linear-gradient(to bottom, white, #9AECDB);
+    height: 100%;
+    position: relative;
+    display: block;
+    width: 20vw;
+    float: left;
+    padding-top: 2%;
+}
+
+.div-buttons button:enabled
+{
+    background-color: royalblue;
+}
+
+.div-buttons button:disabled
+{
+    background-color: grey;
+}
+
+.div-buttons button:hover:enabled
+{
+    cursor: pointer;
+    background-color: #0c2461;
+}
+
+.div-buttons button:focus
+{
+    outline: 0;
+}
+
+.marker:hover
+{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.marker:hover + div:after{
+    animation-play-state: paused;
+}
+
+
+
+#i-crossroad-marker-01
+{
+    top: 19vw;
+    left: 14vw;
+}
+
+#div-marker-pulse-01
+{
+    top: 22.2vw;
+    left: 13.6vw;
+}
+
+#i-crossroad-marker-02
+{
+    top: 30vw;
+    left: 28.5vw;
+}
+
+#div-marker-pulse-02
+{
+    top: 33.2vw;
+    left: 28.1vw;
+}
+
+#i-crossroad-marker-03
+{
+    top: 7.5vw;
+    left: 45.3vw;
+}
+
+#div-marker-pulse-03
+{
+    top: 10.7vw;
+    left: 44.9vw;
+}
+
+#i-crossroad-marker-04
+{
+    top: 30vw;
+    left: 72.3vw;
+}
+
+#div-marker-pulse-04
+{
+    top: 33.2vw;
+    left: 71.9vw;
+}
+
+#i-crossroad-marker-05
+{
+    top: 8vw;
+    left: 82.4vw;
+}
+
+#div-marker-pulse-05
+{
+    top: 11.2vw;
+    left: 82vw;
+}
+
+#i-crossroad-marker-06
+{
+    top: 50vw;
+    left: 13.5vw;
+}
+
+#div-marker-pulse-06
+{
+    top: 53.2vw;
+    left: 13.1vw;
+}
+
+#i-crossroad-marker-07
+{
+    top: 54.5vw;
+    left: 40.5vw;
+}
+
+#div-marker-pulse-07
+{
+    top: 57.7vw;
+    left: 40.1vw;
+}
+
+#i-crossroad-marker-08
+{
+    top: 75vw;
+    left: 72.5vw;
+}
+
+#div-marker-pulse-08
+{
+    top: 78.2vw;
+    left: 72.1vw;
+}
+
+#i-crossroad-marker-09
+{
+    top: 49vw;
+    left: 85vw;
+}
+
+#div-marker-pulse-09
+{
+    top: 52.2vw;
+    left: 84.6vw;
+}
+
+#i-crossroad-marker-10
+{
+    top: 43.5vw;
+    left: 55.5vw;
+}
+
+#div-marker-pulse-10
+{
+    top: 46.7vw;
+    left: 55.1vw;
+}
+
+#i-crossroad-marker-11
+{
+    top: 78.5vw;
+    left: 88.5vw;
+}
+
+#div-marker-pulse-11
+{
+    top: 81.7vw;
+    left: 88.1vw;
+}
+
+#i-crossroad-marker-12
+{
+    top: 95.5vw;
+    left: 72.5vw;
+}
+
+#div-marker-pulse-12
+{
+    top: 98.7vw;
+    left: 72.1vw;
+}
+
+#i-crossroad-marker-13
+{
+    top: 86.5vw;
+    left: 51vw;
+}
+
+#div-marker-pulse-13
+{
+    top: 89.7vw;
+    left: 50.6vw;
+}
+
+#i-crossroad-marker-14
+{
+    top: 65.5vw;
+    left: 7.5vw;
+}
+
+#div-marker-pulse-14
+{
+    top: 68.7vw;
+    left: 7.1vw;
+}
+
+#i-crossroad-marker-15
+{
+    top: 94vw;
+    left: 2vw;
+}
+
+#div-marker-pulse-15
+{
+    top: 97.2vw;
+    left: 1.6vw;
+}
+
+footer
+{
+
+    height: 7vw;
+    display: block;
+    position: relative;
+    background: black;
+}
+
+footer p
+{
+    font-size: 2vw;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+    float: left;
+    display: block;
+    left: 30px;
+
+}
+
+#div-authors
+{
+    background: transparent;
+    position: relative;
+    display: inline;
+    right: 14%;
+    width: 30vw;
+    float: right;
+    margin-top: 1vw;
+}
+
+.div-autor
+{
+    display: block;
+    float: left;
+    width: 33.333%;
+    position: relative;
+    background: transparent;
+    height: 100%;
+}
+
+#div-autors-info
+{
+    width: fit-content;
+    position: relative;
+    top: 70%;
+    margin: auto;
+}
+
+.div-autor-info
+{
+    position:relative;
+    width: 22vw;
+    height: 26vw;
+    background-color: lightgrey;
+    border: 2px solid grey;
+    top: 70%;
+    float:left;
+    border-radius: 10px;
+    margin: 2vw;
+}
+
+.div-autor-image
+{
+    position: relative;
+    width: 3vw;
+    height: 3vw;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.div-autor-image:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.div-autor-photo
+{
+    width: 8vw;
+    height: 8vw;
+    margin: 1vw auto auto auto;
+    border-radius: 10px;
+}
+
+.div-autor-name
+{
+    position: relative;
+    padding-top: 8%;
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+}
+
+.autor-name
+{
+    font-size: 2.2vw;
+    color: black;
+    margin: 1vw;
+    display: block;
+    text-align: center;
+}
+
+.div-autor-contact
+{
+    text-align: center;
+}
+
+.div-autor-info ul
+{
+    margin-bottom: 1vw;
+    list-style: none;
+    padding: 0;
+}
+
+.div-autor-info li
+{
+    margin: 0;
+    font-size: 1.4vw;
+    line-height: 1.2;
+}
+
+#zoli-info
+{
+    height: auto;
+    padding-bottom: 1vw;
+    display: none;
+}
+
+#zoli
+{
+    background-image: url("images/zoli.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div-autor-zoli
+{
+    background-image: url("images/zoli.jpg");
+}
+
+#balazs-info
+{
+    height: auto;
+    padding-bottom: 1vw;
+    display: none;
+}
+
+#balazs
+{
+    background-image: url("images/balazs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div-autor-balazs
+{
+    background-image: url("images/balazs.jpg");
+}
+
+#patrik-info
+{
+    height: auto;
+    padding-bottom: 1vw;
+    display: none;
+}
+
+#patrik
+{
+    background-image: url("images/patrik.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div-autor-patrik
+{
+    background-image: url("images/patrik.jpg");
+}
+
+.facebook-logo
+{
+    width: 2.5vw;
+    margin-left: 1vw;
+}
+
+.facebook-logo:hover
+{
+    transform: scale(1.1);
+}
+
+.github-logo
+{
+    width: 2.5vw;
+    margin-left: 1vw;
+}
+
+.github-logo:hover
+{
+    transform: scale(1.1);
+}
+
+.div-social-icons
+{
+    text-align: center;
+}
+
+.crossroad
+{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+
+    border-radius: 100px;
+
+    overflow: hidden;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* 4 control points */
+.left-top
+{
+    left: 7px;
+    top: 7px;
+    background: green;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.right-top
+{
+    right: 7px;
+    top: 7px;
+    background: green;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.right-bottom
+{
+    right: 7px;
+    bottom: 7px;
+    background: green;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.left-bottom
+{
+    left: 7px;
+    bottom: 7px;
+    background: green;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.car
+{
+    /*border: 1px solid red;*/
+
+    position: absolute;
+    height: 80px;
+    display: block;
+
+    background-image: url("images/vehicles/spritesheet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car:hover
+{
+    cursor: pointer;
+}
+
+.car-signal-left::after, .car-signal-right::after, .car-signal-left::before, .car-signal-right::before
+{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url("images/car-signal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+
+    animation: signal .3s linear infinite alternate;
+}
+
+.car-signal-left::after, .car-signal-right::after
+{
+    left: 96%;
+}
+
+.car-signal-left::before, .car-signal-right::before
+{
+    left: -10%;
+}
+
+.car-signal-left::before
+{
+    top: 0;
+    transform: rotate(-60deg);
+}
+
+.car-signal-right::before
+{
+    top: 60px;
+    transform: rotate(-120deg);
+}
+
+.car-signal-right::after
+{
+    top: 60px;
+    transform: rotate(130deg);
+}
+
+.car-signal-left::after
+{
+    top: 0;
+    transform: rotate(50deg);
+}
+
+.animate
+{
+    animation: move 4s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes signal
+{
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+/*
+@keyframes move
+{
+    100%
+    {
+        offset-distance: 100%;
+    }
+}
+
+ */
+
+
+.pedestrian
+{
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 125px;
+    background: url('images/vehicles/walking.png') left center;
+
+    transform: scale(.7) rotate(180deg);
+}
+
+.pedestrian:hover
+{
+    cursor: pointer;
+}
+
+.walk
+{
+    animation: walk 1s steps(12) infinite, move 3s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes walk
+{
+    100%
+    {
+        background-position: -1024px;
+    }
+}
+
+.div-semafore-pedestrian
+{
+    width: 40px;
+    height: 80px;
+}
+
+.div-semafore-vehicle
+{
+    width: 40px;
+    height: 120px;
+}
+
+.div-semafore-pedestrian, .div-semafore-vehicle
+{
+    position: absolute;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ambulance_car
+{
+    width: 176px;
+    background-position: 0 0;
+}
+
+.blue_car
+{
+    width: 122px;
+    background-position: -176px 0;
+}
+
+.firefighter_car
+{
+    width: 251px;
+    background-position: -299px 0;
+}
+
+.green_car
+{
+    width: 160px;
+    background-position: -550px 0;
+}
+
+.orange_car
+{
+    width: 149px;
+    background-position: -709px 0;
+}
+
+.police_car
+{
+    width: 171px;
+    background-position: -860px 0;
+}
+
+.purple_car
+{
+    width: 157px;
+    background-position: -1030px 0;
+}
+
+.red_car
+{
+    width: 155px;
+    background-position: -1186px 0;
+}
+
+.taxi_car
+{
+    width: 159px;
+    background-position: -1341px 0;
+}
+
+.tram
+{
+    width: 289px;
+    background-position: -1499px 0;
+}
+
+.violet_car
+{
+    width: 133px;
+    background-position: -1788px 0;
+}
+
+#div-choice-container
+{
+    background-image: linear-gradient(to bottom, white, #9AECDB);
+    height: 100%;
+    position: relative;
+    display: block;
+    width: 20vw;
+    float: right;
+    padding-top: 4%;
+}
+
+.div-circle
+{
+    background-color: white;
+    margin: 10% auto;
+    width: 13vw;
+    height: 13vw;
+    max-width: 80px;
+    max-height: 80px;
+    position: relative;
+    padding: 4%;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 7px;
+    color: black;
+    cursor: default;
+}
+
+#loading_screen
+{
+    background-color: rgb(255,255,255);
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#loading_screen_box
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 25vh;
+    height: 25vh;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+
+.concentric_circles
+{
+    border-radius: 50%;
+    border-left: 4px solid ;
+    border-right: 4px solid;
+    border-bottom: 4px solid transparent !important;
+    border-top: 4px solid transparent !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate_circles 3s infinite;
+}
+
+@keyframes rotate_circles
+{
+    0%
+    {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    50%
+    {
+        transform: translate(-50%,-50%) rotate(180deg);
+    }
+    100%
+    {
+        transform: translate(-50%,-50%) rotate(-180deg);
+    }
+}
+
+#c_01
+{
+    border-color: #6a89cc;
+    width: 23vh;
+    height: 23vh;
+
+}
+
+#c_02
+{
+    border-color: #4a69bd;
+    width: 20vh;
+    height: 20vh;
+    animation-delay: 0.2s;
+}
+
+#c_03
+{
+    border-color: #1e3799;
+    width: 17vh;
+    height: 17vh;
+    animation-delay: 0.4s;
+}
+
+#c_04
+{
+    border-color: #0c2461;
+    width: 14vh;
+    height: 14vh;
+    animation-delay: 0.6s;
+}
+
+#div-crash
+{
+    width: 0;
+    height: 0;
+
+    max-height: 90vh;
+    min-height: 100px;
+
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 20px;
+
+    background-image: url("images/crash.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: contain;
+    background-position: center;
+
+    animation: appear 150ms linear;
+    animation-fill-mode: forwards;
+}
+
+#div-crash button
+{
+    position: absolute;
+    right: 1vw;
+    width: 5vw;
+    height: fit-content;
+    font-size: 5vw;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border: 0;
+    margin: 0;
+}
+
+#div-crash button:hover
+{
+    animation: rotate-x-button .2s linear forwards;
+}
+
+#div-crash button:focus
+{
+    outline: 0;
+}
+
+#div-validation-result
+{
+    width: 0;
+    height: 0;
+
+    max-height: 90vh;
+    min-height: 100px;
+
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 20px;
+
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+
+    animation: appear 150ms linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear
+{
+    100%
+    {
+        height: 50vw;
+        width: 70vw;
+    }
+}
+
+#div-validation-result button
+{
+    position: absolute;
+    right: 1vw;
+    width: 5vw;
+    height: fit-content;
+    font-size: 5vw;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+}
+
+#div-validation-result button:hover
+{
+    animation: rotate-x-button .2s linear forwards;
+}
+
+#div-validation-result button:focus
+{
+    outline: 0;
+}
+
+@keyframes rotate-x-button
+{
+    100%
+    {
+        transform: rotate(180deg) scale(1.5);
+    }
+
+}
+
+#div-validation-result div
+{
+    display: flex;
+    padding: 3vw;
+    width: 40%;
+    height: 100%;
+    float: right;
+    color: black;
+    font-size: 0;
+    font-family: "Lobster", sans-serif;
+    align-items: center;
+    border-radius: inherit;
+
+    animation: appear-text 150ms linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear-text
+{
+    100%
+    {
+        font-size: 3vw;
+    }
+}
+
+#div-sidebar-opener
+{
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    padding: 3px 14px;
+    border: 2px white solid;
+    border-left: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #2f3542;
+    color: white;
+    font-size: 3vw;
+    outline: 0;
+    transition: 1s;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#button-sidebar-opener:hover
+{
+    transform: scale(1.2) rotate(360deg);
+    transition: 1s;
+}
+
+#div-sidebar-tutorial-container
+{
+    background-color: #2f3542;
+    visibility: hidden;
+}
+
+#div-sidebar
+{
+    width: 0;
+    height: 100vh;
+    background-color: #2f3542;
+    position: absolute;
+    transition: 1s;
+    overflow-x: hidden;
+    color: white;
+}
+
+#header-sidebar-title
+{
+    background-color: #2f3542;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#div-sidebar-main-section
+{
+    width: 80%;
+    /*height: 100%;*/
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.sidebar-list-item
+{
+    list-style-type: none;
+    margin-bottom: calc(20vw + 30px);
+
+}
+
+.sidebar-tutorial-images
+{
+    position: absolute;
+    transform:translateX(-50%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 50%;
+}
+
+#sidebar-tutorial-image-01
+{
+    width: 20vw;
+    height: 20vw;
+}
+
+#sidebar-tutorial-image-02
+{
+    width: 15vw;
+    height: 20vw;
+}
+
+#sidebar-tutorial-image-03
+{
+    width: 25vw;
+    height: 15vw;
+}
+
+.clear-item
+{
+    list-style-type: none;
+}
+
+#div-topbar-opener
+{
+    position: absolute;
+    border-left: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+    outline: 0;
+    cursor: pointer;
+}
+
+#button-topbar-opener:hover
+{
+    transform: scale(1.2) rotate(360deg);
+    transition: 1.3s;
+}
+
+#div-topbar
+{
+    position: fixed;
+    width: 100vw;
+    height: 0;
+    background-color: #2f3542;
+    left: 0;
+    transition: 1s;
+    overflow-x: hidden;
+}
+
+#button-topbar-closer
+{
+    font-size: 8vh;
+    position: absolute;
+    top: 2vh;
+    left: 0.5vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+#button-topbar-closer:hover
+{
+    transition: .5s ease-in-out;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+#div-topbar-main-container
+{
+    position: relative;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    visibility: hidden;
+}
+
+.div-topbar-sub-container
+{
+    position: relative;
+    display: inline-block;
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    padding: 2%;
+    overflow: auto;
+    font-size: 2.5vh;
+}
+
+.div-topbar-tutorial-content-picture
+{
+    border-radius: 8px;
+    margin: 2px;
+}
+
+#div-topbar-tutorial-content-picture-marker
+{
+    width: 20vh;
+    height: 20vh;
+
+}
+
+#div-topbar-tutorial-content-picture-lupa
+ {
+     width: 12vh;
+     height: 12vh;
+ }
+
+#div-topbar-tutorial-content-picture-selector
+{
+    width: 15vh;
+    height: 10vh;
+}
+
+#div-topbar-tutorial-content-picture-taskboard
+{
+    width: 25vh;
+    height: 10vh;
+}
+
+#div-topbar-tutorial-content-picture-autor
+{
+    width: 17vh;
+    height: 17vh;
+}
+
+#CounterVisitor
+{
+    float: left;
+    color: white;
+    font-size: 1.4vw;
+    margin: 1vw 0 0 0;
+    width: 12vw;
+}
+
+#div-bottom-bar
+{
+    background-color: #2f3542;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 22vw;
+    height: 0;
+    padding: 0;
+    overflow: auto;
+
+    color: white;
+}
+
+#div-bottom-bar-content
+{
+    background: inherit;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 2vh;
+
+    display: flex;
+    align-content: center;
+}
+
+#div-bottom-bar-exit-button
+{
+    position: sticky;
+    top: 0;
+    /*right: 0;*/
+    float: right;
+    width: 2vw;
+    height: 2vw;
+    background: black;
+    color: white;
+    padding: 0;
+    font-size: 1.5vw;
+    z-index: 1;
+    border-bottom-left-radius: 1vw;
+}
+
+#div-bottom-bar-exit-button:hover
+{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+#div-namedays-exit-button
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: black;
+    color: white;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    border-bottom-left-radius: inherit;
+}
+
+#div-namedays-exit-button:hover
+{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+#div-firefox-settings-guide
+{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 40%;
+    background-color: #2f3542;
+    border-radius: 8px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#button-close-settings-guide
+{
+    display: block;
+    position: absolute;
+    font-size: 2em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#button-close-settings-guide:hover
+{
+    transition: .5s ease-in-out;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+#div-settings-guide-content
+{
+    display: block;
+    position: relative;
+    margin: 50px auto;
+    font-size: 2vh;
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+#table-tasks
+{
+    background-color: lightgrey;
+
+    width: 800px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0;
+    visibility: hidden;
+    box-shadow: 0 2px 100px 20px rgba(0, 0, 0, 10);
+    z-index: 4;
+}
+
+#table-tasks:focus
+{
+    outline: 0;
+}
+
+th,td
+{
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+th
+{
+    font-size: 25px;
+    color: black;
+}
+
+td
+{
+    color: darkslategrey;
+    font-size: 20px;
+}
+
+
+#button-tasks
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    list-style-type: none;
+    font-size: 1.3vw;
+    margin-left: 2vw;
+    padding: 0.5vw;
+    border: none;
+    border-radius: 5px;
+}
+
+#button-tasks:focus
+{
+    outline: 0;
+}
+
+#visitors-div
+{
+    width: fit-content;
+    float: right;
+}
+
+#visitors-img
+{
+    float: right;
+    height: 5vw;
+    margin: 1vw;
+}

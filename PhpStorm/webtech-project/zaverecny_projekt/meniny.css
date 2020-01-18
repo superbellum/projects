@@ -1,0 +1,117 @@
+#div-namedays
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+
+    color: black;
+    padding: 30px;
+    background-color: lightgrey;
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 100px 20px rgba(0, 0, 0, 10);
+    visibility: hidden;
+    z-index: 2;
+}
+
+#div-namedays h1
+{
+    color: black;
+    position: relative;
+    font-size: 30px;
+}
+
+#div-name, #div-date
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    float: right;
+    list-style-type: none;
+    font-size: 1.6vw;
+    padding: 0.5vw;
+}
+
+#icon-magnifier
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    float: right;
+    list-style-type: none;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+#icon-magnifier:hover
+{
+    cursor: pointer;
+    transform: translateY(-50%) scale(1.4);
+    color: red;
+}
+
+input[type="text"]::placeholder
+{
+    font-style: italic;
+}
+
+input[type="text"]
+{
+    margin-top: 10px;
+}
+
+#select
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    float: right;
+    list-style-type: none;
+    font-size: 1.3vw;
+    margin-left: 2vw;
+    padding: 0.5vw;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#select:focus
+{
+    outline: 0;
+}
+
+#inlineFormInputName2
+{
+   display: none;
+}
+
+#select:hover
+{
+    cursor: pointer;
+}
+
+.div-tooltip
+{
+    position: relative;
+    display: none;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+#h1-title-namedays
+{
+    width: fit-content;
+    float: right;
+}
+
+#button-get-date
+{
+    margin-top: 10px;
+}
+
+
