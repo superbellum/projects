@@ -45,7 +45,7 @@ public class Main
             msg.setSubject("java mail test: subject");
             msg.setText("java mail test: message");
             msg.setSentDate(new Date());
-            
+
             Transport.send(msg);
 
             System.out.println("Message sent.");

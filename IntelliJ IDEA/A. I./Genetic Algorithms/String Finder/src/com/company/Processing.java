@@ -9,7 +9,7 @@ public class Processing
 
     void setup()
     {
-        target = "To be or not to be.";
+        target = "szia patrik, szia patrik";
         popmax = 150;
         mutationRate = (float) 0.1;
 
