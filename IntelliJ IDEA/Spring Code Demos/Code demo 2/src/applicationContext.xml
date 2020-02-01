@@ -7,16 +7,9 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- Define your beans here -->
+	<!-- component scanning -->
+	<context:component-scan base-package="com.springdemo"/>
 
-    <bean id="fortuneService" class="com.springdemo.RandomFortuneService"/>
-
-    <bean id="coach" class="com.springdemo.BaseballCoach" scope="singleton">
-        <constructor-arg ref="fortuneService"/>
-    </bean>
-
-
-    
 </beans>
 
 
