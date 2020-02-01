@@ -25,4 +25,16 @@ public class TrackCoach implements Coach
     {
         return "- track workout";
     }
+
+    // bean init method
+    public void init()
+    {
+        System.out.println("inside init method");
+    }
+
+    // bean destroy method
+    public void destroy()
+    {
+        System.out.println("inside destroy method");
+    }
 }

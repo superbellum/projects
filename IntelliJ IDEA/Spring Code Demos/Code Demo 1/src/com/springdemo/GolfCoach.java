@@ -1,6 +1,6 @@
 package com.springdemo;
 
-public class Golfcoach implements Coach
+public class GolfCoach implements Coach
 {
     @Override
     public String getDailyFortune()
