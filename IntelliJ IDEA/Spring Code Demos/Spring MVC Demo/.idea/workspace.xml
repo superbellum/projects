@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Spring MVC Demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93ed3164-aa2a-4503-80e0-9dde780611d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_MVC_Demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring MVC Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/META-INF/Spring MVC Demo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/com/springdemo/HelloWorldController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/com/springdemo/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/com/springdemo/SillyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/helloworld-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/helloworld.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/home-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/student-confirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/student-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/resources/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/META-INF/Spring MVC Demo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/com/springdemo/HelloWorldController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/com/springdemo/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/com/springdemo/SillyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springdemo/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springdemo/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springdemo/SillyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springdemo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springdemo/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/helloworld.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/home-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/css/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XFk63arrA4tQZzphvopS1AOH7n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3218391" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.16 (Ubuntu)">
+    <configuration name="Tomcat 9.0.16 (Ubuntu)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="Spring MVC Demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Spring_MVC_Demo_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40191" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring MVC Demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="helloworld-form.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/view/helloworld-form.jsp" />
+      <deployment>
+        <artifact name="Spring MVC Demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Spring_MVC_Demo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="helloworld-form_jsp_Spring_MVC_Demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring MVC Demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="main-menu.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/view/main-menu.jsp" />
+      <deployment>
+        <artifact name="Spring MVC Demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Spring_MVC_Demo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="main-menu_jsp_(1)_Spring_MVC_Demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring MVC Demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="main-menu.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/view/main-menu.jsp" />
+      <deployment>
+        <artifact name="Spring MVC Demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Spring_MVC_Demo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="main-menu_jsp_Spring_MVC_Demo_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring MVC Demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.16 (Ubuntu)" />
+      <item itemvalue="Tomcat Server.helloworld-form.jsp" />
+      <item itemvalue="Tomcat Server.main-menu.jsp (1)" />
+      <item itemvalue="Tomcat Server.main-menu.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.main-menu.jsp" />
+        <item itemvalue="Tomcat Server.main-menu.jsp (1)" />
+        <item itemvalue="Tomcat Server.helloworld-form.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93ed3164-aa2a-4503-80e0-9dde780611d0" name="Default Changelist" comment="" />
+      <created>1580649052017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580649052017</updated>
+      <workItem from="1580649055673" duration="15140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580658860455">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="418" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1020@0.0.1920.1020" timestamp="1580658860455" />
+    <state x="768" y="228" width="374" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1580661975627">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="768" y="228" width="374" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1020@0.0.1920.1020" timestamp="1580661975627" />
+    <state x="430" y="106" width="1049" height="800" key="CommitChangelistDialog2" timestamp="1580665437522">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="430" y="106" width="1049" height="800" key="CommitChangelistDialog2/0.0.1920.1020@0.0.1920.1020" timestamp="1580665437522" />
+    <state width="1294" height="205" key="GridCell.Tab.0.bottom" timestamp="1580665415180">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415180" />
+    <state width="1294" height="205" key="GridCell.Tab.0.center" timestamp="1580665415180">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.0.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415180" />
+    <state width="1294" height="205" key="GridCell.Tab.0.left" timestamp="1580665415180">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.0.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415180" />
+    <state width="1294" height="205" key="GridCell.Tab.0.right" timestamp="1580665415180">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.0.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415180" />
+    <state width="1294" height="205" key="GridCell.Tab.1.bottom" timestamp="1580665415181">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.1.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415181" />
+    <state width="1294" height="205" key="GridCell.Tab.1.center" timestamp="1580665415180">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.1.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415180" />
+    <state width="1294" height="205" key="GridCell.Tab.1.left" timestamp="1580665415180">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.1.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415180" />
+    <state width="1294" height="205" key="GridCell.Tab.1.right" timestamp="1580665415181">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.1.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415181" />
+    <state width="1294" height="205" key="GridCell.Tab.2.bottom" timestamp="1580665415182">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.2.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415182" />
+    <state width="1294" height="205" key="GridCell.Tab.2.center" timestamp="1580665415181">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.2.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415181" />
+    <state width="1294" height="205" key="GridCell.Tab.2.left" timestamp="1580665415181">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.2.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415181" />
+    <state width="1294" height="205" key="GridCell.Tab.2.right" timestamp="1580665415181">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="205" key="GridCell.Tab.2.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580665415181" />
+    <state width="1294" height="578" key="GridCell.Tab.3.bottom" timestamp="1580649652946">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.3.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580649652946" />
+    <state width="1294" height="578" key="GridCell.Tab.3.center" timestamp="1580649652944">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.3.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580649652944" />
+    <state width="1294" height="578" key="GridCell.Tab.3.left" timestamp="1580649652943">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.3.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580649652943" />
+    <state width="1294" height="578" key="GridCell.Tab.3.right" timestamp="1580649652945">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.3.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580649652945" />
+    <state width="1294" height="578" key="GridCell.Tab.4.bottom" timestamp="1580649657036">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.4.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580649657036" />
+    <state width="1294" height="578" key="GridCell.Tab.4.center" timestamp="1580649657035">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.4.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580649657035" />
+    <state width="1294" height="578" key="GridCell.Tab.4.left" timestamp="1580649657034">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.4.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580649657034" />
+    <state width="1294" height="578" key="GridCell.Tab.4.right" timestamp="1580649657035">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1294" height="578" key="GridCell.Tab.4.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580649657035" />
+    <state x="43" y="93" width="1024" height="840" key="SettingsEditor" timestamp="1580650012753">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="43" y="93" width="1024" height="840" key="SettingsEditor/0.0.1920.1020@0.0.1920.1020" timestamp="1580650012753" />
+    <state x="142" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1580652348922">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="142" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1020@0.0.1920.1020" timestamp="1580652348922" />
+  </component>
+</project>
