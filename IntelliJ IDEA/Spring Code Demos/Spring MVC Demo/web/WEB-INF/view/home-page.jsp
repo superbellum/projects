@@ -18,5 +18,10 @@
 
 <a href="student/showForm" target="_blank">student form</a>
 
+<hr>
+
+<a href="customer/showForm" target="_blank">customer form</a>
+
+
 </body>
 </html>
