@@ -1,5 +1,7 @@
 package com.springdemo;
 
+import com.springdemo.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer
@@ -17,6 +19,19 @@ public class Customer
 
     @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "5 chars/nums")
     private String postalCode;
+
+    @CourseCode(value = "TOPS", message = "must start with 'TOPS'")
+    private String courseCode;
+
+    public void setCourseCode(String courseCode)
+    {
+        this.courseCode = courseCode;
+    }
+
+    public String getCourseCode()
+    {
+        return courseCode;
+    }
 
     public String getPostalCode()
     {

@@ -7,11 +7,12 @@
 </head>
 <body>
 
-<strong>Customer:</strong>
-First name: ${customer.firstName}
-Last name: ${customer.lastName}
-Free passes: ${customer.freePasses}
-Postal code: ${customer.postalCode}
+<strong>Customer:</strong> <br/>
+First name: ${customer.firstName} <br/>
+Last name: ${customer.lastName} <br/>
+Free passes: ${customer.freePasses} <br/>
+Postal code: ${customer.postalCode} <br/>
+Course code: ${customer.courseCode} <br/>
 
 </body>
 </html>
