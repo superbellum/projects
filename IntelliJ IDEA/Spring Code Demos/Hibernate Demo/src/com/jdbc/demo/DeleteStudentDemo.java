@@ -5,7 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class ReadStudentDemo
+public class DeleteStudentDemo
 {
     public static void main(String[] args)
     {
@@ -19,9 +19,9 @@ public class ReadStudentDemo
         {
             session.beginTransaction();
 
-            Student student = session.get(Student.class, 3);
+            Student student = session.get(Student.class, 5);
 
-            System.out.println("\nStudent retrieved: " + student);
+            session.delete(student);
 
             session.getTransaction().commit();
 
