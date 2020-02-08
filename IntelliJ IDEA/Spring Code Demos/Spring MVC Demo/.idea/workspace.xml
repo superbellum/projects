@@ -7,85 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93ed3164-aa2a-4503-80e0-9dde780611d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/artifacts/Hibernate_Demo_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/libraries/Hibernate_5_4_10_5_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/Hibernate Demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/byte-buddy-1.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/hibernate-core-5.4.10.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/jandex-2.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/out/artifacts/Hibernate_Demo_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/out/artifacts/Hibernate_Demo_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/out/artifacts/Hibernate_Demo_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/out/artifacts/Hibernate_Demo_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/src/com/jdbc/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate Demo/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/com/springdemo/validation/CourseCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/com/springdemo/validation/CourseCodeConstraintValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/com/springdemo/validation/CourseCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/com/springdemo/validation/CourseCodeConstraintValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springdemo/validation/CourseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springdemo/validation/CourseCodeConstraintValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring_MVC_Demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_MVC_Demo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/com/springdemo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/classes/com/springdemo/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/customer-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/home-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Spring_MVC_Demo_war_exploded/WEB-INF/view/home-page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring MVC Demo/com/springdemo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring MVC Demo/com/springdemo/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springdemo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springdemo/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/home-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/home-page.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,11 +83,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/jboss-logging-3.3.2.Final.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3218391" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.12589929" />
+    <property name="project.structure.side.proportion" value="0.17003745" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -433,6 +356,8 @@
       <workItem from="1580846802750" duration="174000" />
       <workItem from="1580893007055" duration="1539000" />
       <workItem from="1580896161414" duration="5813000" />
+      <workItem from="1581086832665" duration="255000" />
+      <workItem from="1581087433610" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="- Spring MVC Demo: controllers, form">
       <created>1580665438060</created>
@@ -465,10 +390,10 @@
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
     <state x="555" y="170" width="800" height="672" key="#Project_Structure/0.0.1920.1020@0.0.1920.1020" timestamp="1580750788970" />
-    <state x="418" y="167" width="845" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580904802304">
+    <state x="418" y="167" width="845" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581089592386">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state x="418" y="167" width="845" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1020@0.0.1920.1020" timestamp="1580904802304" />
+    <state x="418" y="167" width="845" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1020@0.0.1920.1020" timestamp="1581089592386" />
     <state x="768" y="228" width="374" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1580844610449">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
@@ -493,58 +418,58 @@
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
     <state x="430" y="106" width="1049" height="800" key="CommitChangelistDialog2/0.0.1920.1020@0.0.1920.1020" timestamp="1580772642709" />
-    <state x="338" y="271" width="637" height="479" key="FileChooserDialogImpl" timestamp="1580764723489">
+    <state x="338" y="271" width="637" height="479" key="FileChooserDialogImpl" timestamp="1581088074905">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state x="338" y="271" width="637" height="479" key="FileChooserDialogImpl/0.0.1920.1020@0.0.1920.1020" timestamp="1580764723489" />
-    <state width="1501" height="248" key="GridCell.Tab.0.bottom" timestamp="1580910380864">
+    <state x="338" y="271" width="637" height="479" key="FileChooserDialogImpl/0.0.1920.1020@0.0.1920.1020" timestamp="1581088074905" />
+    <state width="1501" height="346" key="GridCell.Tab.0.bottom" timestamp="1581089654498">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380864" />
-    <state width="1501" height="248" key="GridCell.Tab.0.center" timestamp="1580910380864">
+    <state width="1501" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654498" />
+    <state width="1501" height="346" key="GridCell.Tab.0.center" timestamp="1581089654498">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.0.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380864" />
-    <state width="1501" height="248" key="GridCell.Tab.0.left" timestamp="1580910380863">
+    <state width="1501" height="346" key="GridCell.Tab.0.center/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654498" />
+    <state width="1501" height="346" key="GridCell.Tab.0.left" timestamp="1581089654498">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.0.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380863" />
-    <state width="1501" height="248" key="GridCell.Tab.0.right" timestamp="1580910380864">
+    <state width="1501" height="346" key="GridCell.Tab.0.left/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654498" />
+    <state width="1501" height="346" key="GridCell.Tab.0.right" timestamp="1581089654498">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.0.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380864" />
-    <state width="1501" height="248" key="GridCell.Tab.1.bottom" timestamp="1580910380864">
+    <state width="1501" height="346" key="GridCell.Tab.0.right/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654498" />
+    <state width="1501" height="346" key="GridCell.Tab.1.bottom" timestamp="1581089654499">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.1.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380864" />
-    <state width="1501" height="248" key="GridCell.Tab.1.center" timestamp="1580910380864">
+    <state width="1501" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654499" />
+    <state width="1501" height="346" key="GridCell.Tab.1.center" timestamp="1581089654499">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.1.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380864" />
-    <state width="1501" height="248" key="GridCell.Tab.1.left" timestamp="1580910380864">
+    <state width="1501" height="346" key="GridCell.Tab.1.center/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654499" />
+    <state width="1501" height="346" key="GridCell.Tab.1.left" timestamp="1581089654499">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.1.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380864" />
-    <state width="1501" height="248" key="GridCell.Tab.1.right" timestamp="1580910380864">
+    <state width="1501" height="346" key="GridCell.Tab.1.left/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654499" />
+    <state width="1501" height="346" key="GridCell.Tab.1.right" timestamp="1581089654499">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.1.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380864" />
-    <state width="1501" height="248" key="GridCell.Tab.2.bottom" timestamp="1580910380865">
+    <state width="1501" height="346" key="GridCell.Tab.1.right/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654499" />
+    <state width="1501" height="346" key="GridCell.Tab.2.bottom" timestamp="1581089654500">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.2.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380865" />
-    <state width="1501" height="248" key="GridCell.Tab.2.center" timestamp="1580910380865">
+    <state width="1501" height="346" key="GridCell.Tab.2.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654500" />
+    <state width="1501" height="346" key="GridCell.Tab.2.center" timestamp="1581089654500">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.2.center/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380865" />
-    <state width="1501" height="248" key="GridCell.Tab.2.left" timestamp="1580910380865">
+    <state width="1501" height="346" key="GridCell.Tab.2.center/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654500" />
+    <state width="1501" height="346" key="GridCell.Tab.2.left" timestamp="1581089654499">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.2.left/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380865" />
-    <state width="1501" height="248" key="GridCell.Tab.2.right" timestamp="1580910380865">
+    <state width="1501" height="346" key="GridCell.Tab.2.left/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654499" />
+    <state width="1501" height="346" key="GridCell.Tab.2.right" timestamp="1581089654500">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1501" height="248" key="GridCell.Tab.2.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580910380865" />
+    <state width="1501" height="346" key="GridCell.Tab.2.right/0.0.1920.1020@0.0.1920.1020" timestamp="1581089654500" />
     <state width="1294" height="205" key="GridCell.Tab.3.bottom" timestamp="1580763357481">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
@@ -577,10 +502,10 @@
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
     <state width="1294" height="578" key="GridCell.Tab.4.right/0.0.1920.1020@0.0.1920.1020" timestamp="1580649657035" />
-    <state x="43" y="93" width="1696" height="840" key="SettingsEditor" timestamp="1580898212681">
+    <state x="307" y="113" width="1528" height="840" key="SettingsEditor" timestamp="1581089585836">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state x="43" y="93" width="1696" height="840" key="SettingsEditor/0.0.1920.1020@0.0.1920.1020" timestamp="1580898212681" />
+    <state x="307" y="113" width="1528" height="840" key="SettingsEditor/0.0.1920.1020@0.0.1920.1020" timestamp="1581089585836" />
     <state x="555" y="245" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1580772652678">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
