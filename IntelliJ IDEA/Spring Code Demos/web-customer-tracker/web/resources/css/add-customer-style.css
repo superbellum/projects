@@ -17,8 +17,8 @@ label
 input
 {
 	width: 250px;
-	border: 1px solid #666; 
-	border-radius: 5px; 
+	border: 1px solid #666;
+	border-radius: 5px;
 	padding: 4px; 
 	font-size: 16px;
 }
@@ -26,10 +26,17 @@ input
 .save
 {
 	font-weight: bold;
-	width: 130px; 
+	font-size: 15px;
+	width: fit-content;
 	padding: 5px 10px; 
 	margin-top: 30px;
 	background: #cccccc;
+}
+
+.save:hover
+{
+	color: white;
+	cursor: pointer;
 }
 
 table

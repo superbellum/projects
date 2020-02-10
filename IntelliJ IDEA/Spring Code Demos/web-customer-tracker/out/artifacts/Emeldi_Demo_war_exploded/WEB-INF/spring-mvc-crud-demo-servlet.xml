@@ -32,10 +32,9 @@
 
     <!-- load custom error message resources -->
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-
         <property name="basenames" value="resources.messages"/>
-
     </bean>
+
 
     <!-- Step 1: Define Database DataSource / connection pool -->
 	<bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">

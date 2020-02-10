@@ -11,37 +11,30 @@ table
 	border-collapse: collapse;
 	border: 1px solid gray;
 	font-family: Tahoma,Verdana,Segoe,sans-serif;
-	width: 72%;
+	width: 70%;
 }
  
 th
 {
-	border: 1px solid gray;
 	background: none repeat scroll 0 0 #09c332;
 	padding: 10px;
 	color: #FFFFFF;
 }
 
-td
-{
-	border: 1px solid gray;
-}
-
 tr
 {
-	border: 1px solid gray;
 	height: 40px;
 	text-align: center;
 }
  
 tr:nth-child(even)
 {
-	background: #FFFFFF
+	background: #FFFFFF;
 }
 
 tr:nth-child(odd)
 {
-	background: #BBBBBB
+	background: #BBBBBB;
 }
  
 #wrapper
@@ -55,13 +48,13 @@ tr:nth-child(odd)
 	width: 70%;
 	background: #09c332;
 	margin-top: 0;
-	padding:15px 0 15px 15px;
+	padding: 15px 0 15px 15px;
 }
 
 #header h2
 {
 	width: 100%;
-	margin:auto;
+	margin: auto;
 	color: #FFFFFF;
 }
 
@@ -83,12 +76,44 @@ tr:nth-child(odd)
 
 .add-button
 {
-	border: 1px solid #666;
-	border-radius: 5px;
-	font-size: 12px;
 	font-weight: bold;
-	width: 120px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 15px;
+	width: fit-content;
 	padding: 5px 10px;
 	margin-bottom: 15px;
 	background: #cccccc;
+}
+
+.add-button:hover
+{
+	color: white;
+	cursor: pointer;
+}
+
+
+input:focus
+{
+	outline: none;
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+a:visited
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:active
+{
+	text-decoration: underline;
 }
