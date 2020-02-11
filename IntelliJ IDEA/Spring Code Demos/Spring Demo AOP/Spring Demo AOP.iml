@@ -4,8 +4,25 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="ApplicationContext" removed="false">
-          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/com/luv2code/aopdemo/DemoConfig.java</file>
+          <file>file://$MODULE_DIR$/src/pointcut/DemoConfig.java</file>
+        </fileset>
+        <fileset id="fileset2" name="DemoConfig" removed="false">
+          <file>file://$MODULE_DIR$/src/aspectOrder/DemoConfig.java</file>
+        </fileset>
+        <fileset id="fileset3" name="DemoConfig (2)" removed="false">
+          <file>file://$MODULE_DIR$/src/aopdemo/DemoConfig.java</file>
+        </fileset>
+        <fileset id="fileset4" name="DemoConfig (3)" removed="false">
+          <file>file://$MODULE_DIR$/src/joinpoints/dao/DemoConfig.java</file>
+        </fileset>
+        <fileset id="fileset5" name="DemoConfig (4)" removed="false">
+          <file>file://$MODULE_DIR$/src/afterReturning/DemoConfig.java</file>
+        </fileset>
+        <fileset id="fileset6" name="DemoConfig (5)" removed="false">
+          <file>file://$MODULE_DIR$/src/afterThrowing/DemoConfig.java</file>
+        </fileset>
+        <fileset id="fileset7" name="DemoConfig (6)" removed="false">
+          <file>file://$MODULE_DIR$/src/after/DemoConfig.java</file>
         </fileset>
       </configuration>
     </facet>

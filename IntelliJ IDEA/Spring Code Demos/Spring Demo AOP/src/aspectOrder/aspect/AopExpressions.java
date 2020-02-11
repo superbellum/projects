@@ -2,16 +2,15 @@ package aspectOrder.aspect;
 
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-public class MyDemoLoggingAspect
+public class AopExpressions
 {
     @Pointcut("execution(* aspectOrder.dao.*.*(..))")
-    private void forDAOPackage()
+    public void forDaoPackage()
     {
         //
     }
@@ -28,27 +27,16 @@ public class MyDemoLoggingAspect
         //
     }
 
-    @Pointcut("forDAOPackage() && !(getterPointcut() || setterPointcut())")
+    @Pointcut("forDaoPackage() && !(getterPointcut() || setterPointcut())")
     public void forDaoPackageNoSetterNoGetter()
     {
         //
     }
 
 
-    @Before("forDaoPackageNoSetterNoGetter()")
-    public void beforeAddAccountAdvise()
-    {
-        System.out.println("==> @Before");
-    }
-
-    @Before("forDaoPackageNoSetterNoGetter()")
-    public void analytics()
-    {
-        System.out.println("==> @Before 2");
-    }
 
 
-    @After("forDAOPackage()")
+    @After("forDaoPackage()")
     public void foo()
     {
         System.out.println("------------------------------------------------------------");
