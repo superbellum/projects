@@ -1,11 +1,9 @@
-package after.aspect;
+package around.aspect;
 
-import after.Account;
+import around.Account;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.AfterThrowing;
-import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
@@ -16,7 +14,41 @@ import java.util.List;
 @Component
 public class LogAspect
 {
-    @After("execution(* after.dao.AccountDAO.findAccounts(..))")
+    @Around("execution(* around.service.*.getFortune(..))")
+    public Object aroundFortune(ProceedingJoinPoint proceedingJoinPoint) throws Throwable
+    {
+        String method = proceedingJoinPoint.getSignature().toShortString();
+
+        System.out.println("==> @Around : " + method);
+
+        long begin = System.currentTimeMillis();
+
+        Object result = null;
+
+        try
+        {
+            result = proceedingJoinPoint.proceed();
+        }
+        catch (Exception e)
+        {
+            //e.printStackTrace();
+
+            result = "==> @Around: Exception handled: " + e;
+
+            throw e;
+        }
+
+
+        long end = System.currentTimeMillis();
+
+        long duration = end - begin;
+        System.out.println("Duration: " + duration / 1000.0 + " seconds");
+
+        return result;
+    }
+
+
+    @After("execution(* around.dao.AccountDAO.findAccounts(..))")
     public void afterFindaccounts(JoinPoint joinPoint)
     {
         String method = joinPoint.getSignature().toShortString();
@@ -26,7 +58,7 @@ public class LogAspect
 
 
 
-    @AfterThrowing(pointcut = "execution(* after.dao.AccountDAO.findAccounts(..))", throwing = "exception")
+    @AfterThrowing(pointcut = "execution(* around.dao.AccountDAO.findAccounts(..))", throwing = "exception")
     public void afterThrowingFindAccounts(JoinPoint joinPoint, Exception exception)
     {
         String method = joinPoint.getSignature().toShortString();
@@ -36,7 +68,7 @@ public class LogAspect
         System.out.println("==> Exception handled: " + exception);
     }
 
-    @AfterReturning(pointcut = "execution(* after.dao.AccountDAO.findAccounts(..))", returning = "result")
+    @AfterReturning(pointcut = "execution(* around.dao.AccountDAO.findAccounts(..))", returning = "result")
     public void afterReturningFindAccounts(JoinPoint joinPoint, List<Account> result)
     {
         String method = joinPoint.getSignature().toShortString();

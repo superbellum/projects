@@ -24,6 +24,9 @@
         <fileset id="fileset7" name="DemoConfig (6)" removed="false">
           <file>file://$MODULE_DIR$/src/after/DemoConfig.java</file>
         </fileset>
+        <fileset id="fileset8" name="DemoConfig (7)" removed="false">
+          <file>file://$MODULE_DIR$/src/around/DemoConfig.java</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
