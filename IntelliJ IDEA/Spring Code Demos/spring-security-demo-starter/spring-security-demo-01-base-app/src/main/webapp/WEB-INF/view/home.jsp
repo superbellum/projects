@@ -1,10 +1,17 @@
+
+
 <html>
+
 <head>
 
+    <title>Home</title>
+
 </head>
+
 <body>
 
-<h2>Hello patrik!</h2>
+Welcome pat
 
 </body>
+
 </html>

@@ -15,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -28,27 +28,25 @@
     </dependency>
 
     <!-- Servlet API -->
-
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
     </dependency>
 
-    <!-- Hibernate -->
-
+    <!-- Hibernate (core) -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
       <version>5.4.11.Final</version>
     </dependency>
 
-
-
-
-
-
-
+    <!-- Atlassian Mail -->
+    <dependency>
+      <groupId>com.atlassian.mail</groupId>
+      <artifactId>atlassian-mail</artifactId>
+      <version>5.0.1</version>
+    </dependency>
 
 
 
@@ -56,6 +54,20 @@
 
 
   </dependencies>
+
+  <repositories>
+    <repository>
+      <id>atlassian</id>
+      <name>atlassian-repo</name>
+      <url>https://maven.atlassian.com/content/repositories/atlassian-public/</url>
+    </repository>
+
+
+
+
+
+
+  </repositories>
 
   <build>
     <finalName>Maven WebApp Demo</finalName>
