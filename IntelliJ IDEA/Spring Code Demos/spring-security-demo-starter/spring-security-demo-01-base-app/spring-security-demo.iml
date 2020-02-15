@@ -6,6 +6,9 @@
         <fileset id="fileset" name="AppConfig" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/luv2code/springsecurity/configuration/AppConfig.java</file>
         </fileset>
+        <fileset id="fileset2" name="ResourceConfig" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/luv2code/springsecurity/configuration/ResourceConfig.java</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="web" name="Web">
