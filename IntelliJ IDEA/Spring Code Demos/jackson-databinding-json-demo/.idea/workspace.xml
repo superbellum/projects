@@ -2,25 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2027b08-216e-4e5d-8fe7-d6db0d3f970e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample-full.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample-lite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jackson-databind-json-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jackson/demo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jackson/demo/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jackson/demo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/artifacts/spring_rest_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/artifacts/spring_rest_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/spring-rest-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/src/main/java/com/springdemo/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/src/main/java/com/springdemo/config/DispatcherServletInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Emeldi Demo/.idea/dataSources/db494523-6e9d-4748-940d-837eca01382b.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Emeldi Demo/.idea/dataSources/db494523-6e9d-4748-940d-837eca01382b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +68,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-rest-demo" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -98,33 +107,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581856117732</updated>
-      <workItem from="1581856119376" duration="3183000" />
+      <workItem from="1581856119376" duration="4026000" />
     </task>
+    <task id="LOCAL-00001" summary="Jackson json data binder demo;">
+      <created>1581860517965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581860517966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Jackson json data binder demo;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jackson json data binder demo;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="768" y="228" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1581857390471">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
     <state x="768" y="228" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1020@0.0.1920.1020" timestamp="1581857390471" />
-    <state width="1878" height="270" key="GridCell.Tab.0.bottom" timestamp="1581858604964">
+    <state x="361" y="106" width="1187" height="800" key="CommitChangelistDialog2" timestamp="1581860517794">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1878" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1581858604964" />
-    <state width="1878" height="270" key="GridCell.Tab.0.center" timestamp="1581858604964">
+    <state x="361" y="106" width="1187" height="800" key="CommitChangelistDialog2/0.0.1920.1020@0.0.1920.1020" timestamp="1581860517794" />
+    <state x="743" y="267" width="424" height="479" key="FileChooserDialogImpl" timestamp="1581860704805">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1878" height="270" key="GridCell.Tab.0.center/0.0.1920.1020@0.0.1920.1020" timestamp="1581858604964" />
-    <state width="1878" height="270" key="GridCell.Tab.0.left" timestamp="1581858604964">
+    <state x="743" y="267" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1020@0.0.1920.1020" timestamp="1581860704805" />
+    <state width="1878" height="270" key="GridCell.Tab.0.bottom" timestamp="1581861539260">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1878" height="270" key="GridCell.Tab.0.left/0.0.1920.1020@0.0.1920.1020" timestamp="1581858604964" />
-    <state width="1878" height="270" key="GridCell.Tab.0.right" timestamp="1581858604964">
+    <state width="1878" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1581861539260" />
+    <state width="1878" height="270" key="GridCell.Tab.0.center" timestamp="1581861539257">
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
-    <state width="1878" height="270" key="GridCell.Tab.0.right/0.0.1920.1020@0.0.1920.1020" timestamp="1581858604964" />
+    <state width="1878" height="270" key="GridCell.Tab.0.center/0.0.1920.1020@0.0.1920.1020" timestamp="1581861539257" />
+    <state width="1878" height="270" key="GridCell.Tab.0.left" timestamp="1581861539256">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="270" key="GridCell.Tab.0.left/0.0.1920.1020@0.0.1920.1020" timestamp="1581861539256" />
+    <state width="1878" height="270" key="GridCell.Tab.0.right" timestamp="1581861539259">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="270" key="GridCell.Tab.0.right/0.0.1920.1020@0.0.1920.1020" timestamp="1581861539259" />
+    <state x="555" y="245" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1581860529891">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="555" y="245" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1920.1020@0.0.1920.1020" timestamp="1581860529891" />
+    <state x="376" y="207" width="1157" height="598" key="new project wizard" timestamp="1581860582981">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="376" y="207" width="1157" height="598" key="new project wizard/0.0.1920.1020@0.0.1920.1020" timestamp="1581860582981" />
   </component>
 </project>
