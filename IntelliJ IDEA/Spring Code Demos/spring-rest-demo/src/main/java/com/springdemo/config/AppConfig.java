@@ -9,5 +9,5 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan("com.springdemo")
 public class AppConfig
 {
-
+    //
 }
