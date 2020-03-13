@@ -49,7 +49,8 @@ public class DemoAppConfig implements WebMvcConfigurer
 		{
 			myDataSource.setDriverClass(env.getProperty("jdbc.driver"));
 		}
-		catch (PropertyVetoException exc) {
+		catch (PropertyVetoException exc)
+		{
 			throw new RuntimeException(exc);
 		}
 		
@@ -92,9 +93,9 @@ public class DemoAppConfig implements WebMvcConfigurer
 		String propVal = env.getProperty(propName);
 		
 		// now convert to int
-		int intPropVal = Integer.parseInt(propVal);
-		
-		return intPropVal;
+
+		assert propVal != null;
+		return Integer.parseInt(propVal);
 	}	
 	
 	@Bean
