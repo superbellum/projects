@@ -11,7 +11,7 @@ public class HomeController
     @GetMapping
     public String helloWorld()
     {
-        return "Hello dev tools!";
+        return "Hello actuator!";
     }
 
     @GetMapping("/workout")
